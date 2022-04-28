@@ -78,7 +78,7 @@ DISPLAY C
 Kullanıcının girdiği yaş 18 yaşında ve 18 yaşından büyükse "Reşitsiniz!", değilse "Reşit değilsiniz..." yazısını gösterecek algoritmayı sözde koda dönüştürelim.
 
 ```
-DISPLAY "YAşınız ? : "
+DISPLAY "Yaşınız ? : "
 GET Y
 IF Y >= 18 THEN
 DISPLAY "Reşitsiniz!"
