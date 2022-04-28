@@ -108,3 +108,18 @@ ENDIF
  ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Algoritmalar%C4%B1Kodlamak/Images/resitlik.png)
  
  Java'da kullanıcıdan bilgi almak için öncelikle bir **Scanner** nesnesi tanımlanır. Ardından bu tanımlanan nesnenin uygun metodu çağrılarak kullanıcın girdiği bilgi alınır.
+ 
+ 1'den 100'e kadar olan sayma sayılarını toplayalım.
+ 
+ ```
+ 1. Başla
+ 2. Toplam = 0, Sayi = 1
+ 3. Sayac (X = 1 TO 100 STEP 1)
+ 4. Oku "Bir sayı girin : " Sayı
+ 5. Toplam += Sayı
+ 6. Sayac Sonu
+ 7. Yaz Toplam
+ 8. Dur
+ ```
+
+İlk olarak değişikenleri belirleyelim. İşlem sonuçta toplam çıktısı vereceği için, 1'den 100'e kadar olan sayıların toplamını tutacak bir **Toplam** değişkenine ihtiyacımız var. İkincisi **for** yapısı bir *sayaç* değişkenine (yani X) ihtiyaç duyar.
