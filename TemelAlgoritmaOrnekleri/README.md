@@ -104,4 +104,4 @@ DISPLAY "Girmiş olduğunuz dikdörtgenin alanı = " + Alan
 
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir:
 
-![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/Algoritma_KullaniciDegerBolme.java%20at%20MIT-License%20%C2%B7%20SenaOzcn_Algoritma%20-%20Brave%2028.04.2022%2022_24_48.png)
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/dikdortgen.png)
