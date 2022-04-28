@@ -59,3 +59,11 @@ Aynı problemin bir başka çözümü de iç içe koşul yapısı uygulamaktır.
 Program yazarken sıklıkla karşılaştığımız durumlardan biri de, belirli bir işi tekrarlamaktır. Örneğin; kullanıcıdan 100 adet sayı alıp, bunların toplamını ekrana yazdıracak bir programın algoritmasını yazalım. 
 
 ![ornek](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/4.png)
+
+Algoritmaya dikkat bakacak olursak, satırlar sürekli aynı şeyi tekrar ediyor. Eğer bir algoritmda tekrar eden algoritmalar varsa, bu noktada tekrarlı yapılar kullanılır.
+
+# Sayaç Yapıları
+
+Kullanıcıdan 100 adet sayı alıp, bu sayıların toplamını ekrana yazdıran programı tekrar ele alalım. Bu problemin çözümündeki adımlardan kullanıcıdan sayı alma ve alınan sayıyı toplama ekleme işlemleri 100 kez tekrar edilmektedir. Tekrar sayısı **net** olan bu işlemde, sayaç mantığı kullanılarak işlem 100 kez tekrarlanır. 
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/5.png)
