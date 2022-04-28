@@ -8,7 +8,7 @@ Algoritmayı yazılı hale getirmenin üç yönetmi vardır:
 
 1. Satır Algoritma
 2. Akış Diyagramı
-3. **Sözde Kod**(*Pseudo-Code)
+3. **Sözde Kod** *(Pseudo-Code)*
 
 # Satır Algoritma
 
