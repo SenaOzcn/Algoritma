@@ -53,3 +53,9 @@ Yukarıdaki algoritmada program işletilirken 3, 4 ve 5 numaralı satırlardaki 
 Aynı problemin bir başka çözümü de iç içe koşul yapısı uygulamaktır. Bu tip yapılarda, koşul yapısının içinde bir başka koşul yapısı daha yer alır.
 
 ![ornek4](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Main.java%20-%20javapatikasi%20-%20Visual%20Studio%20Code%2028.04.2022%2017_35_40.png)
+
+# Tekrarlı Yapılar İçin Algoritma Geliştirmek
+
+Program yazarken sıklıkla karşılaştığımız durumlardan biri de, belirli bir işi tekrarlamaktır. Örneğin; kullanıcıdan 100 adet sayı alıp, bunların toplamını ekrana yazdıracak bir programın algoritmasını yazalım. 
+
+![ornek](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/4.png)
