@@ -170,3 +170,41 @@ DISPLAY "Dairenin alanı " + Alan
 Çözümün Java ile kodlanmış hali;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/dairecevrealan.png)
+
+# Koninin Hacmi
+
+Koni şeklindeki bir cismin hacmini hesaplamak için aşağıdaki formül kullanılır.
+
+```
+Koni Hacmi = PI * r * r / h
+```
+
+```
+Yarıçapı ve yüksekliği verilen bir koninin hacmini hesaplayarak sonucu ekrana yazdıran algoritmayı tasarlayınız.
+```
+Problemin çözümü için iki adet girdi ve bir adet çıktı kullanacağız.
+
+```
+Girdiler : 
+Yarıçap
+Yükseklik
+```
+
+```
+Çıktı : 
+Koninin Hacmi
+```
+
+Sözde Kod :
+
+```
+DISPLAY "Yarıçap(r) = "
+GET r
+DISPLAY "Yükseklik(h) = "
+GET h
+Hacim = PI * r * r / h
+DISPLAY "Koninin Hacmi = " + Hacim
+```
+
+Çözümün Java ile kodlanmış hali;
+
