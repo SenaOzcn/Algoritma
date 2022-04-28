@@ -75,3 +75,14 @@ C = A + B
 DISPLAY C
 ```
 
+Kullanıcının girdiği yaş 18 yaşında ve 18 yaşından büyükse "Reşitsiniz!", değilse "Reşit değilsiniz..." yazısını gösterecek algoritmayı sözde koda dönüştürelim.
+
+```
+DISPLAY "YAşınız ? : "
+GET Y
+IF Y >= 18 THEN
+DISPLAY "Reşitsiniz!"
+ELSE
+DISPLAY "Reşit değilsiniz..."
+ENDIF
+```
