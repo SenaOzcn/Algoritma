@@ -52,4 +52,4 @@ Yukarıdaki algoritmada program işletilirken 3, 4 ve 5 numaralı satırlardaki 
 
 Aynı problemin bir başka çözümü de iç içe koşul yapısı uygulamaktır. Bu tip yapılarda, koşul yapısının içinde bir başka koşul yapısı daha yer alır.
 
-![ornek4](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/soru4.png)
+![ornek4](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/algoritma4.png)
