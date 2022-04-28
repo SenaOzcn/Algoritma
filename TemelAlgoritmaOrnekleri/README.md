@@ -209,3 +209,35 @@ DISPLAY "Koninin Hacmi = " + Hacim
 Çözümün Java ile kodlanmış hali;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/KoninHacmi.png)
+
+# Uzunluğu İnçten Santimetreye Dönüştürmek
+
+```
+İnç cinsinden verilen bir uzunluğun santimetre cinsinden karşılığını bularak ekrana yazdıran algoritmayı tasarlayınız.
+```
+1 inç = 2.54 cm olduğuna göre fomülümüz : 
+cm uzunluk = inç uzunluk * 2.54
+
+Problemin çözümü için bir adet girdi ve bir adet çıktı kullanacağız.
+
+```
+Girdi : 
+Uzunluk_Inc
+```
+
+```
+Çıktı : 
+Uzunluk_Cm
+```
+
+Sözde Kod : 
+
+```
+DISPLAY "Uzunluk (inç) = "
+GET iUzunluk
+cmUzunluk = iUzunluk * 2.54
+DISPLAY "Uzunluk (CM) = " + cmUzunluk
+```
+Çözümün Java ile kodlanmış hali;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/InctenCm.java)
