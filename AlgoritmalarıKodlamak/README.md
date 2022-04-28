@@ -86,3 +86,23 @@ ELSE
 DISPLAY "Reşit değilsiniz..."
 ENDIF
 ```
+ Eğer koşul *doğru/true* döndürürse *IF* deyiminden sonra gelen blok, eğer *yanlış/false* döndürürse *ELSE* deyiminden sonraki blok işletilecektir.
+ 
+ Şimdi ekrana 1'den 100'e kadar olan sayıların toplamını sözde kod ile yazdıralım.
+ ```
+ Toplam = 0
+ FOR (X = 1 TO 100 STEP 1)
+     Toplam += X
+ ENDFOR
+ DISPLAY Toplam
+ ```
+ 
+ Ekrana sırasıyla 1, 2 ve 3 yazdıran **JAVA** programı aşağıdaki gibidir.
+ 
+ ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Algoritmalar%C4%B1Kodlamak/Images/Algoritma_EkranaYazdirma.java%20at%20MIT-License%20%C2%B7%20SenaOzcn_Algoritma%20-%20Brave%2028.04.2022%2018_19_45.png)
+ 
+ Java'da ekranda bilgi göstermek için **System.out.println()** kullanılır.
+ 
+ Yaşını giren kullanıcının reşit olup olmadığını Java ile ekrana yazdıralım.
+ 
+ ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Algoritmalar%C4%B1Kodlamak/Images/resitlik.png)
