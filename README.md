@@ -61,7 +61,7 @@ Kullanıcıdan bir sayı alarak, aldığı sayının pozitif ya da negatif oldu�
 1. Başla
 2. Oku "Bir sayı giriniz : " (Sayı)
 3. Eğer (Sayı > 0) Yaz ("Girdiğiniz sayı pozitiftir.")
-4. Eğer (Sayı < 0) Yaz("Girğiniz sayı negatiftir.")
+4. Eğer (Sayı < 0) Yaz("Girdiğiniz sayı negatiftir.")
 5. Eğer Yaz ("Girdiğiniz sayı sıfırdır")
 6. Dur
 ```
