@@ -156,3 +156,17 @@ Formüller :
 Çevre = 2 * PI * Yarıçap
 Alan = PI * Yarıçap
 ```
+Sözde Kod :
+
+```
+DISPLAY "Yarıçap = "
+GET Yarıçap
+Cevre = 2 * PI *Yarıçap
+Alan = PI * Yarıçap * Yarıçap
+DISPLAY "Dairenin çevresi " + Cevre
+DISPLAY "Dairenin alanı " + Alan
+```
+
+Çözümün Java ile kodlanmış hali;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/dairecevrealan.png)
