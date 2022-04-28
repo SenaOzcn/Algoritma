@@ -93,7 +93,23 @@ Aynı problemin bir başka çözümü de iç içe koşul yapısı uygulamaktır.
 
 Program yazarken sıklıkla karşılaştığımız durumlardan biri de, belirli bir işi tekrarlamaktır. Örneğin; kullanıcıdan 100 adet sayı alıp, bunların toplamını ekrana yazdıracak bir programın algoritmasını yazalım. 
 
-![ornek](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/4.png)
+```
+1. Başla
+2. Toplam = 0
+3. Oku "Bir sayı giriniz : " Sayı
+4. Toplam += Sayı
+5. Oku "Bir sayı giriniz : " Sayı
+6. Toplam += Sayı
+...
+...
+...
+203. Oku "Bir sayı giriniz : " Sayı
+204. Toplam += Sayı
+205. Oku "Bir sayı giriniz : " Sayı
+206. Toplam += Sayı
+207. YAZ Toplam
+208. Dur
+```
 
 Algoritmaya dikkat bakacak olursak, satırlar sürekli aynı şeyi tekrar ediyor. Eğer bir algoritmda tekrar eden algoritmalar varsa, bu noktada tekrarlı yapılar kullanılır.
 
