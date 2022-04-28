@@ -1,5 +1,7 @@
 // Kullanıcıdan alınan değerlerle dikdörtgenin çevre ve alanının hesaplanması...
 
+import java.util.Scanner;
+
 class Dikdortgen {
   public static void main(String[] Args) {
     Scanner scanner = new Scanner(System.in);
