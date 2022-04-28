@@ -59,3 +59,19 @@ Sözde kod yazarken, yukarıdaki gibi Başla ve Dur komutlarını yazmıyoruz.  
 ```
 
 Sözde kodda, çıktı işlemleri için **DISPLAY** ve **WRITE** ifadeleri kullanılır. Bir bilgiyi ekranda göstermek için **DISPLAY**, veritabanı ya da dosyaya yazdırmak için **WRITE** kullanılır.
+
+```
+DISPLAY 1
+DISPLAY 2
+DISPLAY 3
+```
+
+Oku için **GET**, Yaz için **DISPLAY** komutlarını kullanalım.
+
+```
+GET A
+GET B
+C = A + B
+DISPLAY C
+```
+
