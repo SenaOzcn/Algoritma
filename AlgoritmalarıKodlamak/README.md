@@ -32,3 +32,30 @@ FOR Sayac  ([başlangıç değeri] TO [Hedef Sayı] STEP [artış])
      ... Tekrarlanacak işlemler
 ENDFOR
 ```
+
+# Satır Algoritmalardan Sözde Kod Oluşturma
+
+Bir satır algoritmayı sözde koda dönüştürürken aşağıdaki adımları izleriz:
+
+1. Girdi ve çıktıları (değişkenleri) belirlemek.
+2. Sıralı adımları, karar yapılarını, tekrarlı yapıları ve işlemleri belirlemek.
+3. Yapı, işlem ve adımları uygun şekilde düzenlemek.
+
+İlk olarak ekrana sırasıyla 1, 2 ve 3 değerlerini yazdıran algoritmanın sözde kodunu yazalım.
+
+```
+1. Başla
+2. Yaz 1
+3. Yaz 2
+4. Yaz 3
+5. Dur
+```
+Sözde kod yazarken, yukarıdaki gibi Başla ve Dur komutlarını yazmıyoruz.  Bunun nedeni; sözde kodu bir program olarak düşündüğümüzden, zaten ilk satırla başlayacak ve son satırla bitecektir.
+
+```
+2. Yaz 1
+3. Yaz 2
+4. Yaz 3
+```
+
+Sözde kodda, çıktı işlemleri için **DISPLAY** ve **WRITE** ifadeleri kullanılır. Bir bilgiyi ekranda göstermek için **DISPLAY**, veritabanı ya da dosyaya yazdırmak için **WRITE** kullanılır.
