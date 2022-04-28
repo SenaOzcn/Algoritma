@@ -14,7 +14,7 @@ Kodu programa dönüştürelim.
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Algoritmalar%C4%B1Kodlamak/Images/Algoritma_KullaniciDegerToplami.java%20at%20MIT-License%20%C2%B7%20SenaOzcn_Algoritma%20-%20Brave%2028.04.2022%2020_34_59.png)
 
-#İki Sayıyı Bölmek
+# İki Sayıyı Bölmek
 
 Ekrana girilen iki sayıyı bölerek sonucu ekrana yazdıran algoritmayı tasarlayınız.
 
