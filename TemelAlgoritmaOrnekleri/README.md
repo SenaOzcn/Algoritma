@@ -142,3 +142,7 @@ GET Yükseklik
 alan = Taban uzunluğu * Yükseklik
 DISPLAY "Girmiş olduğunuz üçgenin alanı = " + alan
 ```
+
+Çözümün Java ile kodlanmış hali;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/ucgeninAlani.png)
