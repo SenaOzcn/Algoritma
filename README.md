@@ -111,7 +111,7 @@ Program yazarken sıklıkla karşılaştığımız durumlardan biri de, belirli 
 208. Dur
 ```
 
-Algoritmaya dikkat bakacak olursak, satırlar sürekli aynı şeyi tekrar ediyor. Eğer bir algoritmda tekrar eden algoritmalar varsa, bu noktada tekrarlı yapılar kullanılır.
+Algoritmaya dikkatli bakacak olursak, satırlar sürekli aynı şeyi tekrar ediyor. Eğer bir algoritmda tekrar eden algoritmalar varsa, bu noktada tekrarlı yapılar kullanılır.
 
 # Sayaç Yapıları
 
