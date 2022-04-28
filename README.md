@@ -107,7 +107,7 @@ Program yazarken sıklıkla karşılaştığımız durumlardan biri de, belirli 
 204. Toplam += Sayı
 205. Oku "Bir sayı giriniz : " Sayı
 206. Toplam += Sayı
-207. YAZ Toplam
+207. Yaz Toplam
 208. Dur
 ```
 
@@ -126,6 +126,6 @@ Kullanıcıdan 100 adet sayı alıp, bu sayıların toplamını ekrana yazdıran
 5.1. Toplam += Sayı
 5.2. Sayac++
 5.3. Git 4
-6. YAZ Toplam
+6. Yaz Toplam
 7. Dur
 ```
