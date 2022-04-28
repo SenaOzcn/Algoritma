@@ -105,3 +105,40 @@ DISPLAY "Girmiş olduğunuz dikdörtgenin alanı = " + Alan
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir:
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/dikdortgen.png)
+
+# Üçgenin Alanı
+
+Üçgenin alanı, bir kenarın uzunluğu ve bu kenara ait yüksekliğin çarpımıyla bulunur.
+
+```
+Tabanı ve yüksekliği verilen bir üçgenin alanını hesaplayarak ekrana yazdıran algoritmayı tasarlayınız.
+```
+Bu problemi çözerken,
+
+- Kullanicidan değerleri al(Değer al)
+- Aldığın değerlerle formülü işler(Hesapla)
+- Sonucu ekrana yazdır(Sonuç göster)
+
+adımlarını takip edeceğiz.
+
+```
+Çözümün girdileri : 
+Taban uzunluğu
+Yükseklik
+```
+
+```
+Çıktı :
+Alan
+```
+
+Sözde Kod : 
+
+```
+DISPLAY "Taban uzunluğunu = "
+GET Taban uzunluğu
+DISPLAY "Yükseklik = "
+GET Yükseklik
+alan = Taban uzunluğu * Yükseklik
+DISPLAY "Girmiş olduğunuz üçgenin alanı = " + alan
+```
