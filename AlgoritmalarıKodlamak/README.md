@@ -17,3 +17,18 @@ LOOP [koşul]
       ... Tekrarlanacak işlemler
 ENDLOOP
 ```
+Aşağıdaki koşula bağlı tekrarlı yapıdaysa, koşulun durumu her ne olursa olsun, tekrarlı yapı içindeki kod en az bir kez çalıştırılacaktır.
+
+```
+LOOP
+     ... Tekrarlanacak işlemler
+ENDLOOP [koşul]
+```
+
+Sayaç tipi tekrarlı yapılarda, belirli bir sayıdan başlanarak, belirli bir hedefe kadar sayılır. Sayma işleminde artışın ne kadar olacağını STEP deyimi belirtir.
+
+```
+FOR Sayac  ([başlangıç değeri] TO [Hedef Sayı] STEP [artış])
+     ... Tekrarlanacak işlemler
+ENDFOR
+```
