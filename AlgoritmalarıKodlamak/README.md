@@ -127,3 +127,16 @@ ENDIF
 1'den 100'e kadar olan sayıların toplamını veren programını Java ile şu şekilde kodlarız. 
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Algoritmalar%C4%B1Kodlamak/Images/Algoritma_BirdenYuzeKadarSayilarinToplami.java%20at%20MIT-License%20%C2%B7%20SenaOzcn_Algoritma%20-%20Brave%2028.04.2022%2020_19_46.png)
+
+Kullanıcıdan iki değer alıp, bu iki değeri toplayalım.
+
+```
+GET A
+GET B
+C = A + B
+DISPLAY C
+```
+
+Şimdi bunu Java'da yazalım.
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Algoritmalar%C4%B1Kodlamak/Images/Algoritma_KullaniciDegerToplami.java%20at%20MIT-License%20%C2%B7%20SenaOzcn_Algoritma%20-%20Brave%2028.04.2022%2020_34_59.png)
