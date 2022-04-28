@@ -240,4 +240,4 @@ DISPLAY "Uzunluk (CM) = " + cmUzunluk
 ```
 Çözümün Java ile kodlanmış hali;
 
-![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/InctenCm.java)
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/Inctencmye.png)
