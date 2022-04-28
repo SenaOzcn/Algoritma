@@ -146,3 +146,13 @@ DISPLAY "Girmiş olduğunuz üçgenin alanı = " + alan
 Çözümün Java ile kodlanmış hali;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/ucgeninAlani.png)
+
+# Dairenin Çevresi ve Alanı
+
+Bir dairenin çevrisini ve alanını hesaplamak için, o dairenin yarıçapını bilmek yeterlidir.
+
+Formüller : 
+```
+Çevre = 2 * PI * Yarıçap
+Alan = PI * Yarıçap
+```
