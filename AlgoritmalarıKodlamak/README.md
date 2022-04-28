@@ -106,3 +106,5 @@ ENDIF
  Yaşını giren kullanıcının reşit olup olmadığını Java ile ekrana yazdıralım.
  
  ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Algoritmalar%C4%B1Kodlamak/Images/resitlik.png)
+ 
+ Java'da kullanıcıdan bilgi almak için öncelikle bir **Scanner** nesnesi tanımlanır. Ardından bu tanımlanan nesnenin uygun metodu çağrılarak kullanıcın girdiği bilgi alınır.
