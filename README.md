@@ -117,4 +117,15 @@ Algoritmaya dikkat bakacak olursak, satırlar sürekli aynı şeyi tekrar ediyor
 
 Kullanıcıdan 100 adet sayı alıp, bu sayıların toplamını ekrana yazdıran programı tekrar ele alalım. Bu problemin çözümündeki adımlardan kullanıcıdan sayı alma ve alınan sayıyı toplama ekleme işlemleri 100 kez tekrar edilmektedir. Tekrar sayısı **net** olan bu işlemde, sayaç mantığı kullanılarak işlem 100 kez tekrarlanır. 
 
-![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/5.png)
+```
+1. Başla
+2. Toplam = 0, Sayac = 1
+3. Yaz "Bir sayı giriniz : "
+4. Oku Sayı
+5. Eğer (Sayac < = 100)
+5.1. Toplam += Sayı
+5.2. Sayac++
+5.3. Git 4
+6. YAZ Toplam
+7. Dur
+```
