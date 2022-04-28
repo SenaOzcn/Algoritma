@@ -38,7 +38,7 @@ Yukarıdaki akışta duruma göre ya 3.1 no'lu satır ya da 3.2 no'lu satır iş
 
 Uygulama akışının geldiği yerde, ikiden fazla alternatif yoldan biriyle ilerlemesi gerektiği durumlardır.
 
-![ornek3](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/soru.3.png)
+![ornek3](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/3.png)
 
 Bir önceki örnekte iki farklı yol olduğundan veya birisi ya da diğeri tercih edileceğinden, bir tek koşula bakmak yeterliydi. Yani girilen yaş 18'e eşit ya da büyükse "Reşitsiniz", değilse "Reşit değilisiniz." yazdırılmıştı. Ancak yeni problem biraz farklı. Sayının üç farklı durumu söz konusu olabilir.
 
