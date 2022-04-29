@@ -298,7 +298,7 @@ DISPLAY "En büyük sayı = " + EnBuyuk
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/EnBuyukSayi.png)
 
-# Ortanca Bulmak
+# Ortalama Bulmak
 
 ```
 Klavyeden girilecek X adet sayının aritmetik ortalamasını bularak ekrana yazdıran algoritmayı tasarlayınız. (X sayısı kullanıcıdan alınacaktır.)
