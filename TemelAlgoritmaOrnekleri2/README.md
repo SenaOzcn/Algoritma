@@ -32,3 +32,6 @@ DISPLAY "Sayı1 Sayı2'ye tam bölünemez."
 ENDIF
 ```
 
+Çözümün Java ile kodlanmış haki aşağıdaki gibidir; 
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/TamBolunebilme.png)
