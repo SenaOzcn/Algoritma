@@ -357,3 +357,36 @@ DISPLAY " X = " + X
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/BirinciDereden_Denklem.png)
 
 
+# Başarı Ölçmek
+
+```
+100 üzerinden 70 başarı notuyla, kullanıcının girdiği nota göre başarılı olup olmadığını gösteren algoritmayı tasarlayınız.
+```
+
+Problemin çözümü için bir girdi ve bir çıktı kullanacağız.
+
+```
+Girdi : 
+Not
+```
+
+```
+Çıktı :
+Sonuç
+```
+
+Sözde Kod :
+
+```
+DISPLAY "Not = "
+GET Not
+IF N >= 70
+DISPLAY "Sonuç = Başarılı"
+ELSE
+DISPLAY "Sonuç = Başarısız"
+ENDIF
+```
+
+Çözümün Java ile kodlanmış hali;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/BasariOlcmek.png)
