@@ -108,3 +108,4 @@ ENDFOR
 ```
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/AlgoritmaOgreniyorum.png)
