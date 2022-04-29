@@ -9,7 +9,7 @@ class BirinciDerecedenDenklem {
     double a = Double.valueOf(scanner.nextLine());
     System.out.print("b değeri = ");
     double b = Double.valueOf(scanner.nextLine());
-    double X = -b / a;
+    double X = -1 * b / a;
     System.out.println("X = " + X);
   }
 }
