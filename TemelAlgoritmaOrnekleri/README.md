@@ -277,3 +277,43 @@ DISPLAY "Sıcaklık (C) = " + S_Sıcaklık
 Çözümün Java ile kodlanmış hali;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/FSicaklikSSicaklik.png)
+
+# Mol Sayısı Hesaplamak
+
+```
+Klavyeden kütlesi ve molekül ağırlığı girilen maddenin mol sayısını hesaplayarak ekrana yazdıran algoritmayı tasarlayın.
+```
+
+Kütlesi verilen bir molekülün mol sayısı fomülü;
+
+```
+Mol = Kütle / Molekül Ağırlığı
+```
+
+Problemin çözümü için iki adet girdi ve bir adet çıktı kullanacağız.
+
+```
+Girdiler : 
+Kütle
+Molekül Ağırlığı
+```
+
+```
+Çıktı : 
+Mol
+```
+
+Sözde Kod : 
+
+```
+DISPLAY "Kütle = "
+GET Kütle
+DISPLAY "Molekül Ağırlığı = "
+GET Molekül Ağırlığı
+Mol = Kütle / Molekül Ağırlığı
+DISPLAY "Mol Sayısı = " + Mol
+```
+
+Çözümün Java ile kodlanmış hali;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/Mol.png)
