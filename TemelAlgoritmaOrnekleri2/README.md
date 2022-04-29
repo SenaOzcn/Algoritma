@@ -169,6 +169,8 @@ ENDFOR
 20'den başlayıp, 1'e kadar 4'er 4'er geriye doğru sayarak ekrana yazdıran algoritmayı tasarlayınız.
 ```
 
+Sayaç : 
+
 ```
 i = 20 TO 1 STEP -4
 ```
