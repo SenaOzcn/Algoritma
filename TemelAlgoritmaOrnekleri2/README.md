@@ -69,3 +69,7 @@ ELSE
 DISPLAY "Sayı1 ve Sayı2 eşittir.
 ENDIF
 ```
+
+Çözümün Java ile kodlanmış haki aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/Karsilastirma.png)
