@@ -184,3 +184,29 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/DorderDorderTers.png)
+
+# Sayıların Küplerini Yazdırmak
+
+```
+1'den 10'a kadar olan sayıların küplerini ekrana yazdıran algoritmayı tasarlayınız.
+```
+
+Bu algoritmada yine kullanıcıdan girdi almadığımız için bir çözüm tasarlıyoruz.
+
+Sayının küpünü aşağıdaki gibi hesaplayabiliriz : 
+
+```
+Sayının küpü = sayı * sayı * sayı
+```
+
+Sözde Kod : 
+
+```
+FOR i = 1 TO 10
+DISPLAY i * i * i
+ENDFOR
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/KupAlma.png)
