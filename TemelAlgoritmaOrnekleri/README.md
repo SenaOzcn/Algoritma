@@ -343,7 +343,7 @@ X
 
 Sözde Kod : 
 
-``
+```
 DISPLAY "X'in katsayısı = "
 GET a
 DISPLAY "b sayısı = "
