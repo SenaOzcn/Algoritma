@@ -245,3 +245,55 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/TekCift.png)
+
+# En Büyük Sayı
+
+```
+Klavyeden girilen 5 tane sayının en büyüğünü bularak ekrana yazdıran algoritmayı tasarlayınız.
+```
+
+5 sayı sayı girdisi ve içlerinden en büyüğü çıktı olarak kullanılacaktır.
+
+```
+Girdi : 
+5 tane sayı
+```
+```
+Çıktı :
+Girilen sayılardan en büyüğü
+```
+ilk olarak 1'den 5'e kadar sayan sayacı yapalım.
+
+Sayaç : 
+```
+i = 1 TO 5
+...
+Sayac Sonu
+```
+
+Şimdi de bu sayaç içine kullanıcıdan sayıları alacak olan kodu yerleştirelim.
+
+```
+i = 1 TO 5
+DISPLAY i + ". sayı : "
+GET Sayı
+...
+Sayaç Sonu
+```
+
+Sözde Kod :
+
+```
+EnBuyuk = 0
+FOR i = 1 TO 5
+DISPLAY i + ". sayı = "
+GET Sayı
+IF Sayı > EnBuyuk THEN
+EnBuyuk = Sayı
+ENDIF
+ENDFOR
+DISPLAY "En büyük sayı = " + EnBuyuk
+```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/EnBuyukSayi.png)
