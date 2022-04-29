@@ -73,3 +73,38 @@ ENDIF
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/Karsilastirma.png)
+
+# Algoritma Öğreniyorum!
+
+```
+Ekrana 10 kere "Algoritma Öğreniyorum!" yazdıran algoritmayı tasarlayınız.
+```
+
+Problemin çözümü için kullanıcıdan bir girdi alınmayacaktır. Bu yüzden girdi olmayaca ama çıktı olarak ekrana 10 kere "Algoritma Öğreniyorum!" yazılacaktır.
+
+```
+Çıktı : 
+Mesaj...
+```
+
+Sayaç yapılarında, üç temel faktör vardır : 
+
+1. Sayacın başlangıç değeri
+2. Sayacın hedef değeri, yani nereye kadar tekrar edeceği
+3. Sayacın artış miktarı
+
+```
+Başlangıç değeri = 1
+Hedef değeri = 10
+Artış miktarı = 1
+```
+
+Sözde Kod :
+
+```
+FOR X = 1 TO 10
+DISPLAY "Algoritma Öğreniyorum!"
+ENDFOR
+```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
