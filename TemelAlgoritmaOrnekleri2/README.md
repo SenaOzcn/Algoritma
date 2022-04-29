@@ -210,3 +210,36 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/KupAlma.png)
+
+# Tek/Çift Sayılar
+
+```
+1'den 10'a kadar olan sayıları, yanlarına tek/çift yazdırılarak ekranda gösteren algoritmayı tasarlayınız.
+```
+
+Sayaç : 
+```
+i = 1 TO 10
+```
+
+Şimdi tek mi çift mi olduğunu bulalım. Bunun için MOD2'yi kullanacağız. Kalan 0 ise çift, değilse tek sayıdır.
+
+```
+i MOD2 = 0
+```
+Bir sayı ya tektir, ya da ç,fttir. Yani iki altertaif mevcuttur. İki alternatifli karar yapısını kullanacağız.
+
+Sözde Kod : 
+
+```
+FOR i = 1 TO 10
+IF i %2 == 0
+DISPLAY i + " Çift"
+ELSE
+DISPLAY i + " Tek"
+ENDIF
+ENDFOR
+```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/TekCift.png)
