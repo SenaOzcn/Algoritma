@@ -66,6 +66,6 @@ DISPLAY "Sayı1, Sayı2'den büyüktür."
 ELSE IF (Sayı1 < Sayı2) THEN
 DISPLAY "Sayı1, Sayı2'den küçüktür."
 ELSE
-DISPLAY "Sayı1 ve Sayı' eşittir.
+DISPLAY "Sayı1 ve Sayı2 eşittir.
 ENDIF
 ```
