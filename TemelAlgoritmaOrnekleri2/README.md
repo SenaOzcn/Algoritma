@@ -138,3 +138,27 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/SayiTekrari.png)
+
+# Üçer Üçer Saydırmak
+
+```
+5'ten başlayıp 20'ye kadar 3'er 3'er artarak sayıları ekrana yazdıran algoritmayı tasarlayınız.
+```
+
+Kullanıcıdan herhangi bir değer alınmayacağı için sadece çıktı olarak ekrana sayıları yazdıracağız.
+
+```
+i = 5 TO 20 STEP 3
+```
+
+Sözde Kod :
+
+```
+FOR i = 5 TO 20 STEP 3
+DISPLAY i
+ENDFOR
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/UcerUcerSaydirma.png)
