@@ -241,3 +241,39 @@ DISPLAY "Uzunluk (CM) = " + cmUzunluk
 Çözümün Java ile kodlanmış hali;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/Inctencmye.png)
+
+# Sıcaklığı Fahrenhayttan Santigrada Dönüştürmek
+
+```
+Fahrenhayt olarak verilmiş bir sıcaklık değerini Santigrad'a dönüştürerek ekrana yazdıran algoritmayı tasarlayın.
+```
+
+Problemin çözümü için bir adet girdi ve bir adet çıktı kullanacağız.
+
+```
+Girdi :
+F_Sıcaklık
+```
+
+```
+Çıktı : 
+S_Sıcaklık
+```
+
+Formül ise ;
+
+```
+C = (F - 32) / 1.8
+```
+
+Sözde Kod : 
+
+```
+DISPLAY F_Sıcaklık
+GET F_Sıcaklık
+S_Sıcaklık = (F_Sıcaklık - 32) / 1.8
+DISPLAY "Sıcaklık (C) = " + S_Sıcaklık
+```
+Çözümün Java ile kodlanmış hali;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/FSicaklikSSicaklik.png)
