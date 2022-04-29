@@ -162,3 +162,25 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/UcerUcerSaydirma.png)
+
+# Dörder Dörder Tersten Saydırmak
+
+```
+20'den başlayıp, 1'e kadar 4'er 4'er geriye doğru sayarak ekrana yazdıran algoritmayı tasarlayınız.
+```
+
+```
+i = 20 TO 1 STEP -4
+```
+
+Sözde Kod :
+
+```
+FOR i = 20 TO 1 STEP -4
+DISPLAY i
+ENDFOR
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/DorderDorderTers.png)
