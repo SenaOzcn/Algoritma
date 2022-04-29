@@ -297,3 +297,50 @@ DISPLAY "En büyük sayı = " + EnBuyuk
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/EnBuyukSayi.png)
+
+# Ortanca Bulmak
+
+```
+Klavyeden girilecek X adet sayının aritmetik ortalamasını bularak ekrana yazdıran algoritmayı tasarlayınız. (X sayısı kullanıcıdan alınacaktır.)
+```
+Problemi çözerken iki adet girdi ve bir adet çıktı kullanılacaktır.
+
+```
+Girdi :
+Sayı adeti
+Kullanıcıdan alınacak sayılar
+```
+```
+Çıktı :
+Ortalama
+```
+Formül : 
+
+```
+Ortalama = sayı1 + sayı2 + ... / sayı adeti
+```
+
+Sayaç : 
+
+```
+i = 1 TO Adet
+...
+Sayaç Sonu
+```
+
+Sözde Kod : 
+
+```
+DISPLAY" Ortalaması alınacak sayı adetini girin : "
+GET Sayı adeti
+FOR i = 1 TO Sayı adeti
+DISPLAY i + ". sayı = "
+GET Sayı
+Toplam += Sayı
+ENDFOR
+DISPLAY"Ortalama = " + (Toplam / Sayı adeti)
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/Ortanca_Sayi.png)
