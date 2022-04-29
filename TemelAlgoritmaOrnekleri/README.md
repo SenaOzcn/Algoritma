@@ -317,3 +317,41 @@ DISPLAY "Mol Sayısı = " + Mol
 Çözümün Java ile kodlanmış hali;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/Mol.png)
+
+# Birinci Dereceden Denklem Çözmek
+
+Denklem çözmek formül işlemekten biraz farklıdır. Ancak söz konusu birinci dereceden denklemler olunca, denklemin çözümünü formüle dönüştürmek mümkündür.
+
+```
+Katsayıları verilen birinci dereceden bir denklemin köklerini hesaplayarak ekrana yazdıran algoritmayı tasarlayınız.
+```
+ax + b = 0
+X = -b / a
+
+Problemin çözümü için iki adet girdi ve bir adet çıktı kullanacağız.
+
+```
+Girdiler : 
+a
+b
+```
+
+```
+Çıktı : 
+X
+```
+
+Sözde Kod : 
+
+``
+DISPLAY "X'in katsayısı = "
+GET a
+DISPLAY "b sayısı = "
+GET b
+X = -b / a
+DISPLAY " X = " + X
+```
+
+Çözümün Java ile kodlanmış hali;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/BirinciDeredenDenklem.png)
