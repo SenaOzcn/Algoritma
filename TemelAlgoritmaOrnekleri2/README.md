@@ -102,10 +102,39 @@ Artış miktarı = 1
 Sözde Kod :
 
 ```
-FOR X = 1 TO 10
+FOR i = 1 TO 10
 DISPLAY "Algoritma Öğreniyorum!"
 ENDFOR
 ```
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/AlgoritmaOgreniyorum.png)
+
+# Sayıyı Tekrarlatarak Yazdırmak
+
+```
+Girilen bir sayıyı, değerinin iki katı kadar sayıda tekrar edecek şekilde ekrana yazdıran algoritmayı tasarlayınız.
+```
+
+Problemin çözümünde bir girdi ve bir çıktı kullanacağız.
+
+```
+Girdi : 
+Sayı
+```
+```
+Çıktı : 
+2 * Sayı
+```
+
+Sözde Kod :
+```
+DISPLAY "Sayı => "
+GET Sayı
+FOR i = 1 TO 2 * Sayı
+DISPLAY Sayı
+ENDFOR
+```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/SayiTekrari.png)
