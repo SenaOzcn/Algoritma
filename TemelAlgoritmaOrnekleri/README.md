@@ -354,4 +354,6 @@ DISPLAY " X = " + X
 
 Çözümün Java ile kodlanmış hali;
 
-![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/BirinciDeredenDenklem.png)
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri/Images/BirinciDereden_Denklem.png)
+
+
