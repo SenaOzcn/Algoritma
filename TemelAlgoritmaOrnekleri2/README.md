@@ -344,3 +344,30 @@ DISPLAY"Ortalama = " + (Toplam / Sayı adeti)
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/Ortanca_Sayi.png)
+
+# Faktöriyel Hesabı
+
+ ```
+ Girilen bir sayının faktöriyelini hesaplayarak ekrana yazdıran algoritmayı tasarlayınız.
+ ```
+ 
+ Problemin çözümü için kullanıcıdan bir sayı alıp, bu sayıdan bire kadar geriye doğru sayıyoruz. Bu sayma işleminin her bir adımında, sayaç değerini bir önceki sayaç değeriyle çarpıyoruz. Böylece girilen sayıdan 1'e kadar tüm sayaç değerlerini birbiriyle çarpmış oluruz.
+ 
+ Burada dikkat etmemiz gereken şeylerden biri, çarpma işleminin sonucunu tutacak değişkenin başlangıç değeri 0 değil 1 olması gerektiğidir.
+ 
+ Dikkat etmemiz gereken bir diğer şey de, sayacın girilen sayıdan 1'e doğru birer birer eksilterek saydırılması gerekliliğidir.
+ 
+ Sözde Kod : 
+ 
+ ```
+ Faktoriyel = 1
+ DISPLAY "Sayı = "
+ GET Sayı
+ FOR i = Sayı TO 1 STEP -1
+ Faktoriyel = Faktoriyel * i
+ ENDFOR
+ DISPLAY Sayı + "! = " + Faktoriyel
+ ```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/Faktoriyel.png)
