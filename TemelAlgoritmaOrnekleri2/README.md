@@ -371,3 +371,13 @@ DISPLAY"Ortalama = " + (Toplam / Sayı adeti)
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/Faktoriyel.png)
+
+# Fibonaççi Sayı Dizisi
+
+Fibonaççi sayı dizisi 0, 1, 1, 2, 3, 5, 8, 13, 21, 24, 34, 55, 89, ... dizilişindeki sayılaran oluşan bir dizidir. Dizideki ilk sayı (0, 1) sabittir. Sonra gelen sayılar önceki iki sayının toplamıdır.
+
+```
+Fibonaççi dizisinin ilk 10 sayısını hesaplayarak ekrana yazdıran algoritmayı tasarlayınız.
+```
+
+
