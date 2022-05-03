@@ -8,6 +8,6 @@ class MilKm {
     System.out.print("Deniz mili cinsinden mesafesiyi giriniz : ");
     double mesafeMil = Double.valueOf(scanner.nextLine());
     double mesafeKm = mesafeMil * 1.852;
-    System.out.println("Deniz mili cinsinden verilen bir mesafenin kilometre cinsinden karşılığı : " + mesafeKm);
+    System.out.println("Deniz mili cinsinden verilen " + mesafeMil + " mesafenin kilometre cinsinden karşılığı : " + mesafeKm);
   }
 }
