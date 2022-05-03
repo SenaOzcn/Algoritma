@@ -90,3 +90,31 @@ ENDIF
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/Emeklilik.png)
+
+### 4) Kullanıcıdan bir sayı alıp, aldığı bu sayıdan 1'e kadar tersten sayarak ekrana yazdıran algoritmayı tasarlayınız.
+
+Problemi çözmek için bir adet girdi ve bir adet çıktı kullanılacaktır.
+
+```
+Girdi : 
+Sayı
+```
+
+```
+Çıktı :
+Sayı TO 1
+```
+
+Sözde Kod :
+
+```
+DISPLAY "Sayı => "
+GET sayı
+FOR (i = sayi TO 1)
+DISPLAY i
+ENDFOR
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/BireKadarYazdirma.png)
