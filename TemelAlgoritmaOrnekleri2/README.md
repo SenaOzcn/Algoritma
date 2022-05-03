@@ -380,4 +380,36 @@ Fibonaççi sayı dizisi 0, 1, 1, 2, 3, 5, 8, 13, 21, 24, 34, 55, 89, ... dizili
 Fibonaççi dizisinin ilk 10 sayısını hesaplayarak ekrana yazdıran algoritmayı tasarlayınız.
 ```
 
+Dizinin ilk iki sayısı, elimizde olarak işe başlıyoruz. Sonrasında sayaç devreye giriyor. İlk iki sayıyı zaten baştan aldığımız için, 10 sayıdan oluşan diziyi oluşturmak için sayacın 8 kez sayması yeterli olacaktır.
 
+```
+Sayaç (i = 3 TO 10)
+...
+Sayaç Sonu
+```
+
+Başlangıç da dahil tekrarlı işlemin her bir adımında elimizde fibonaççi dizisinin önceki iki sayısı olacaktır.Bizim yapmamız gereken önceki iki sayıyı toplayıp dizinin yeni elemanını bulmak.
+
+```
+Sayı3 = Sayı2 + Sayı1
+```
+
+Sözde Kod : 
+
+```
+YeniSayı = 0
+DISPLAY Sayı1
+GET Sayı1
+DISPLAY Sayı2
+GET Sayı2
+FOR i = 3 TO 10
+YeniSayı = Sayı1 + Sayı2
+DISPLAY YeniSayı
+Sayı1 = Sayı2
+YeniSayı = Sayı2
+ENDFOR
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/fibonacci.png)
