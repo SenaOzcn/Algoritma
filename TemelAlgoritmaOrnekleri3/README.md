@@ -412,3 +412,66 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/IlkOnCiftSayi.png)
+
+### 16) Klavyeden girilen 10 tane sayının en küçüğünü bularak ekrana yazdıran algoritmayı tasarlayın.
+
+Problemin çözümü için 10 adet girdi ve 1 adet çıktı kullanılacaktır.
+
+```
+Girdi :
+Sayı1
+Sayı2
+Sayı3
+Sayı4
+Sayı5
+Sayı6
+Sayı7
+Sayı8
+Sayı9
+Sayı10
+```
+```
+Çıktı :
+Sonuç
+```
+
+Sözde Kod :
+```
+List
+DISPLAY "Sayı1 => "
+GET sayi1
+list.add(sayi1)
+DISPLAY "Sayı2 => "
+GET sayi2
+list.add(sayi2)
+DISPLAY "Sayı3 => "
+GET sayi3
+list.add(sayi3)
+DISPLAY "Sayı4 => "
+GET sayi4
+list.add(sayi4)
+DISPLAY "Sayı5 => "
+GET sayi5
+list.add(sayi5)
+DISPLAY "Sayı6 => "
+GET sayi6
+list.add(sayi6)
+DISPLAY "Sayı7 => "
+GET sayi7
+list.add(sayi7)
+DISPLAY "Sayı8 => "
+GET sayi8
+list.add(sayi8)
+DISPLAY "Sayı9 => "
+GET sayi9
+list.add(sayi9)
+DISPLAY "Sayı10 => "
+GET sayi10
+list.add(sayi10)
+SORT (list)
+DISPLAY list
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/Siralama.png)
