@@ -93,7 +93,7 @@ ENDIF
 
 ### 4) Kullanıcıdan bir sayı alıp, aldığı bu sayıdan 1'e kadar tersten sayarak ekrana yazdıran algoritmayı tasarlayınız.
 
-Problemi çözmek için bir adet girdi ve bir adet çıktı kullanılacaktır.
+Problemin çözmek için bir adet girdi ve bir adet çıktı kullanılacaktır.
 
 ```
 Girdi : 
@@ -118,3 +118,29 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/BireKadarYazdirma.png)
+
+### 5) Kullanıcıdan bir sayı alarak, aldığı sayının 6 ile tam olarak bölünüp bölünmediğini ekrana yazdıran algoritmayı tasarlayın.
+
+Problemin çözmek için bir adet girdi ve bir adet çıktı kullanılacaktır.
+
+```
+Girdi : 
+Sayı
+```
+
+```
+Çıktı :
+MOD 6
+```
+
+Sözde Kod :
+
+```
+DISPLAY "Sayı => "
+GET sayı
+mod = sayı %6
+IF (mod == 0)
+DISPLAY sayı + " 6'ya tam olarak bölünebilir."
+ELSE
+DISPLAY sayı + " 6'ya bölümünden kalan " + (sayı%6) + "dır."
+```
