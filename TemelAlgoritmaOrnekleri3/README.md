@@ -216,3 +216,34 @@ DISPLAY "Sonuç = " + |sonuc|
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/MutlakDeger.png)
+
+### 8) Yarıçapı verilen kürenin hacmini hesaplayarak ekrana yazdıran algoritmayı tasarlayınız.
+
+Problemin çözümü için bir adet girdi ve bir adet çıktı kullanılacaktır.
+
+```
+Girdi :
+Yarıçap (r)
+```
+```
+Çıktı :
+Hacim (v)
+```
+Kürenin hacim formülü;
+
+```
+Kürenin Hacmi (v) = π * r ^ 3 * (4 / 3)
+```
+
+Sözde Kod :
+
+```
+DISPLAY "Yarıçapı giriniz : "
+GET r
+hacim (v) = π * r ^ 3 * (4 / 3)
+DISPLAY "Yarıçapı " + r + " olan bir kürenin hacmi " + v + " olarak hesaplanır."
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/KureninHacmi.png)
