@@ -380,3 +380,22 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/BaslangicBitisArtis.png)
+
+### 14) 9'dan başlayıp 99'a kadar 11'er 11'er sayarak, sayıları ekrana yazdıran algoritmayı tasarlayın.
+
+Problemin çözümü için sayaç çıktısı kullanılacaktır.
+
+```
+Çıktı :
+Sayaç değeri
+```
+
+Sözde Kod :
+```
+FOR i = 9 TO 99 STEP 11
+DISPLAY i
+ENDFOR
+```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/DokuzdanDoksanDokuza.png)
