@@ -413,3 +413,35 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/fibonacci.png)
+
+# Asal Sayı
+
+```
+Klavyeden girilen bir sayının asal sayı olup olmadığını ekrana yazdıran algoritmayı tasarlayınız.
+```
+
+**Asal Sayılar** 1'den ve kendisinden başka bir sayıya tam olarak bölünmeyen özel sayılar kümesidir.
+
+```
+2, 3, 5, 7, 11, 13, 17, 19, 23
+```
+Sözde Kod :
+
+```
+Sayi = 0, i = 0, kontrol = true
+DISPLAY "Sayı => "
+GET Sayi
+FOR i = 2 TO Sayi - 1
+IF Sayi %i == 0 THEN
+kontrol = false
+ENDIF
+IF kontrol = true THEN
+DISPLAY "Sayı asladır."
+ELSE
+DISPLAY "Sayı asal değildir."
+ENDIF
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri2/Images/AsalSayi.png)
