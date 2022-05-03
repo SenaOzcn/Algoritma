@@ -349,3 +349,34 @@ DISPLAY "Girdiğiniz sayıların bölümü = " + bolum + " kalanı = " + kalan
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/YuzKereYaziYazdirma.png)
+
+### 13) Kullanıcıdan sırasıyla başlangıç, bitiş ve artış değerlerini alarak, başlangıçtan bitişe kadar artış değerinde artarak saydırıp ekrana yazdıran algoritmayı tasarlayın.
+
+Problemin çözümü için üç adet girdi ve bir adet sayaç çıktısı kullanılacaktır.
+
+```
+Girdi :
+baslangıc
+bitis
+artis
+```
+```
+Çıktı :
+Sayac degeri
+```
+Sözde Kod :
+```
+DISPLAY "Başlangıç değerini giriniz : "
+GET baslangic
+DISPLAY "Bitiş değerini giriniz : "
+GET bitis
+DISPLAY "Artış değerini giriniz : "
+GET artis
+FOR i = baslangic TO bitis STEP atis
+DISPLAY i
+ENDFOR
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/BaslangicBitisArtis.png)
