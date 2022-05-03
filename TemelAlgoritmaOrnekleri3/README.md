@@ -326,4 +326,26 @@ bolum = sayi1 / sayi2
 kalan = sayi1 % sayi2
 DISPLAY "Girdiğiniz sayıların bölümü = " + bolum + " kalanı = " + kalan
 ```
- ![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/BolumKalan.png)
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/BolumKalan.png)
+ 
+ ### 12) Ekrana 100 kere "*Merhaba Algoritma!*" yazdıran algoritmayı tasarlayın.
+ 
+ Problemin çözümü için 100 adet çıktı kullanılacaktır.
+ 
+ ```
+ Çıktı :
+ 100 kere "Merhaba Algoritma!"
+ ```
+ 
+ Sözde Kod :
+ ```
+ FOR i = 1 TO 100
+ DISPLAY "Merhaba Algoritma!"
+ ENDFOR
+ ```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/YuzKereYaziYazdirma.png)
