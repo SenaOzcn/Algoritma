@@ -33,4 +33,4 @@ DISPLAY "Çarpımları = " + Çarpım
 
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
-![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/ToplamCarpim.png)
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/Toplam%26Carpim.png)
