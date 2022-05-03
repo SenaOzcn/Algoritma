@@ -247,3 +247,28 @@ DISPLAY "Yarıçapı " + r + " olan bir kürenin hacmi " + v + " olarak hesaplan
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/KureninHacmi.png)
+
+### 9) Deniz mili cinsinden verilen bir mesafenin kilometre cinsinden karşılığını bularak ekrana yazdıran algoritmayı tasarlayınız.
+
+Problemin çözümü için bir adet girdi ve bir adet çıktı kullanılacaktır.
+
+```
+Girdi :
+mesafeMil
+```
+```
+Çıktı :
+mesafeKm
+```
+
+Sözde Kod :
+```
+DISPLAY "Deniz mili cinsinden mesafesiyi giriniz : "
+GET mesafeMil
+mesafeKm = mesafeMil * 1.852
+DISPLAY "Deniz mili cinsinden verilen bir mesafenin kilometre cinsinden karşılığı : " + mesafeKm
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/MilKm.png)
