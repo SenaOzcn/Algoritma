@@ -266,9 +266,9 @@ Sözde Kod :
 DISPLAY "Deniz mili cinsinden mesafesiyi giriniz : "
 GET mesafeMil
 mesafeKm = mesafeMil * 1.852
-DISPLAY "Deniz mili cinsinden verilen bir mesafenin kilometre cinsinden karşılığı : " + mesafeKm
+DISPLAY "Deniz mili cinsinden verilen" + mesafeMil + " mesafenin kilometre cinsinden karşılığı : " + mesafeKm
 ```
 
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
-![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/MilKm.png)
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/Mil%26Km.png)
