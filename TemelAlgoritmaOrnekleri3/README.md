@@ -272,3 +272,31 @@ DISPLAY "Deniz mili cinsinden verilen" + mesafeMil + " mesafenin kilometre cinsi
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/Mil%26Km.png)
+
+### 10) Kelvin olarak verilmiş bir sıcaklık değerini santigrada dönüştürerek ekrana yazdıran algoritmayı tasarlayın.
+
+Formül :
+```
+C = K - 273.15
+```
+
+Problemin çözümü için bir girdi ve bir çıktı kullanılacaktır.
+
+```
+Girdi :
+Kelvin (k)
+```
+```
+Santigrat (c)
+```
+Sözde Kod :
+```
+DISPLAY "Kelvin (k) cinsinden sıcaklığı giriniz : "
+GET k
+c = k - 273.15
+DISPLAY "Girmiş olduğunuz " + k + " kelvin sıcaklık değerinin santigrat değeri = " + c
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/KelvinSantigrat.png)
