@@ -186,3 +186,33 @@ DISPLAY "Girmiş olduğunuz sayıların çarpımı = " + carpim
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/BesSayiCapimi.png)
+
+### 7) Ekrana girilen iki sayının farkını(pozitif, yani mutlak değer olarak) ekrana yazdıran algoritmayı tasarlayınız.
+
+Problemin çözümü için iki adet girdi ve bir adet çıktı kullanılacaktır.
+
+```
+Girdi :
+Sayı1
+Sayı2
+```
+
+```
+Çıktı :
+Sonuç
+```
+
+Sözde Kod :
+
+```
+DISPLAY "Sayı1 => "
+GET sayi1
+DISPLAY "Sayı2 => "
+GET sayi2
+sonuc = sayi1 - sayi2
+DISPLAY "Sonuç = " + |sonuc|
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/MutlakDeger.png)
