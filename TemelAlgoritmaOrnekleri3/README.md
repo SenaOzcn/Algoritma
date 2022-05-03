@@ -300,3 +300,30 @@ DISPLAY "Girmiş olduğunuz " + k + " kelvin sıcaklık değerinin santigrat de�
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/KelvinSantigrat.png)
+
+### 11) Girilen iki sayıdan birincisini ikincisine bölerek, bölüm ve kalanı ekrana yazdıran algoritmayı tasarlayın.
+
+Problemin çözümü için iki adet girdi ve iki adet çıktı kullanılacaktır.
+
+```
+Girdi :
+sayi1
+sayi2
+```
+```
+Çıktı :
+bölüm
+kalan
+```
+
+Sözde Kod :
+```
+DISPLAY "Sayı1 => "
+GET sayi1
+DISPLAY "Sayı2 => "
+GET sayi2
+bolum = sayi1 / sayi2
+kalan = sayi1 % sayi2
+DISPLAY "Girdiğiniz sayıların bölümü = " + bolum + " kalanı = " + kalan
+```
+ ![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/BolumKalan.png)
