@@ -399,3 +399,16 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/DokuzdanDoksanDokuza.png)
+
+### 15) Sıfırdan büyük ilk 10 çift sayıyı ekrana yazdıran algoritmayı tasarlayın.
+
+Sözde Kod :
+```
+FOR i = 0 TO 10 STEP 2
+DISPLAY i
+ENDFOR
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/IlkOnCiftSayi.png)
