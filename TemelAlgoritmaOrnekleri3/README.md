@@ -66,3 +66,35 @@ DISPLAY "Alan = " a ^ 2
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/KareAlan.png)
+
+## 3)
+```
+Kullanıcıdan yaşını alıp, girilen değer 65'e eşitse ya da 65'ten büyükse ekrana "Emekli olabilirsiniz.", girilen değer 65'ten küçükse "Emekliliğinize x yıl var." yazan algoritmayı tasarlayın.
+```
+
+Problemin çözümü için bir adet girdi ve bir adet çıktı kullanılacaktır.
+
+```
+Girdi : 
+Yaş
+```
+```
+Çıktı :
+Emeklilik durumu
+```
+
+Sözde Kod : 
+
+```
+DISPLAY "Yaşınızı Girin = "
+GET yas
+IF (yas >= 65)
+DISPLAY "Emekli olabilirsiniz."
+ELSE
+DISPLAY "Emekliliğinize " + (65 - yas) + " yıl var."
+ENDIF
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/Emeklilik.png)
