@@ -34,3 +34,35 @@ DISPLAY "Çarpımları = " + Çarpım
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/Toplam%26Carpim.png)
+
+## 2)
+```
+Kullanıcıdan bir kenarı alınan karenin alanını hesaplayarak ekrana yazdıran algoritmayı tasarlayınız.
+```
+Karelerin kenar uzunluğuna a dendiği zaman tüm kenarları eşit olduğu için bütün kenarlar a olacaktır.
+
+```
+Karenin alanı = a * a = a ^ 2
+```
+Problemin çözümü için bir adet girdi ve ve bir adet çıktı kullanılacaktır.
+
+```
+Girdi : 
+a (Karenin bir kenarının uzunluğu)
+```
+
+```
+Çıktı : 
+Alan
+```
+
+Sözde Kod :
+```
+DISPLAY "a => "
+GET a
+DISPLAY "Alan = " a ^ 2
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/KareAlan.png)
