@@ -148,3 +148,41 @@ DISPLAY sayı + " 6'ya bölümünden kalan " + mod + "dır."
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/AltiyaTamBolunebilme.png)
+
+### 6) Kullanıcıdan 5 adet sayı alarak, bu sayıların çarpımını ekrana yazdıran algoritmayı tasarlayın.
+
+Problemin çözümü için 5 adet girdi ve 1 adet çıktı kullanılacaktır.
+
+```
+Girdi :
+Sayı1
+Sayı2
+Sayı3
+Sayı4
+Sayı5
+Sayı6
+```
+```
+Çıktı :
+Çarpım
+```
+Sözde Kod :
+
+```
+DISPLAY "Sayı1 => "
+GET sayi1
+DISPLAY "Sayı2 => "
+GET sayi2
+DISPLAY "Sayı3 => "
+GET sayi3
+DISPLAY "Sayı4 => "
+GET sayi4
+DISPLAY "Sayı5 => "
+GET sayi5
+carpim = sayi1 * sayi2 * sayi3 * sayi4 * sayi5
+DISPLAY "Girmiş olduğunuz sayıların çarpımı = " + carpim
+```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/BesSayiCapimi.png)
