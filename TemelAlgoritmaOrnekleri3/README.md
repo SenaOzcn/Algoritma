@@ -142,5 +142,9 @@ mod = sayı %6
 IF (mod == 0)
 DISPLAY sayı + " 6'ya tam olarak bölünebilir."
 ELSE
-DISPLAY sayı + " 6'ya bölümünden kalan " + (sayı%6) + "dır."
+DISPLAY sayı + " 6'ya bölümünden kalan " + mod + "dır."
 ```
+
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/AltiyaTamBolunebilme.png)
