@@ -1,9 +1,6 @@
 # Alıştırmalar
 
-## 1) 
-```
-Kullanıcıdan iki sayı alıp, bu iki sayının toplamını ve çarpımını ekrana yazdıran algoritmayı tasarlayınız.
-```
+### 1) Kullanıcıdan iki sayı alıp, bu iki sayının toplamını ve çarpımını ekrana yazdıran algoritmayı tasarlayınız.
 
 Problemin çözümü için iki adet girdi ve iki adet çıktı kullacağız.
 
@@ -35,10 +32,8 @@ DISPLAY "Çarpımları = " + Çarpım
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/Toplam%26Carpim.png)
 
-## 2)
-```
-Kullanıcıdan bir kenarı alınan karenin alanını hesaplayarak ekrana yazdıran algoritmayı tasarlayınız.
-```
+### 2) Kullanıcıdan bir kenarı alınan karenin alanını hesaplayarak ekrana yazdıran algoritmayı tasarlayınız.
+
 Karelerin kenar uzunluğuna a dendiği zaman tüm kenarları eşit olduğu için bütün kenarlar a olacaktır.
 
 ```
@@ -67,10 +62,7 @@ DISPLAY "Alan = " a ^ 2
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/KareAlan.png)
 
-## 3)
-```
-Kullanıcıdan yaşını alıp, girilen değer 65'e eşitse ya da 65'ten büyükse ekrana "Emekli olabilirsiniz.", girilen değer 65'ten küçükse "Emekliliğinize x yıl var." yazan algoritmayı tasarlayın.
-```
+### 3) Kullanıcıdan yaşını alıp, girilen değer 65'e eşitse ya da 65'ten büyükse ekrana "Emekli olabilirsiniz.", girilen değer 65'ten küçükse "Emekliliğinize x yıl var." yazan algoritmayı tasarlayın.
 
 Problemin çözümü için bir adet girdi ve bir adet çıktı kullanılacaktır.
 
