@@ -118,3 +118,23 @@ Matrislerde de tek boyutlu dizilerde olduğu gibi satır ve sütun endeksleri s�
 Dizi(4,6)
 ```
 İfadesi 4 satır 6 sütundan oluşan bir matrisi tanımlar.
+
+Bir matrisle çalışırken, tek boyutlu dizilerde olduğu gibi sayaç yapıları kullanılır. Ancak matrislerde iki boyut olduğundan, matrislerle çalışırken iç içe iki sayaç kullanılır.
+```
+Sayac (Satir = 0 TO 3 STEP 1)
+   Sayac (Sutun = 0 TO 5 STEP 1)
+   SayacSonu
+SayacSonu
+```
+Yukardaki iç içe ikili sayaç yapısı, 24 adım işleterek, matrisin her bir elemanıyla çalışmamızı sağlar.
+### Harfler(3,4)
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Images/Harfler.png)
+
+```
+Sayac (Satir = 0 TO 2 STEP 1)
+   Sayac (Sutun = 0 TO 3 STEP 1)
+   DISPLAY Harfler(Satir, Sutun)
+   SayacSonu
+SayacSonu
+```
