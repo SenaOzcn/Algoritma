@@ -475,3 +475,30 @@ DISPLAY list
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/Siralama.png)
+
+### 17) Klavyeden girilen bir sayının hangi sayının faktöriyeli olduğunu bularak ekrana yazdıran algoritmayı tasarlayın.
+
+Problemin çözümü için bir girdi ve bir çıktı kullanılacaktır.
+
+```
+Girdi :
+Sayı
+```
+```
+Çıktı :
+Sayı = x!
+```
+
+Sözde Kod :
+```
+x = 1
+DISPLAY "Sayı => "
+GET Sayı
+FOR i = 1 TO Sayı
+x /= i
+ENDFOR
+DISPLAY Sayı + " = " + x + "!"
+```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/Faktoriyel.png)
