@@ -91,6 +91,7 @@ FOR x = 0 TO 9
 GET Sayi
 Sayilar(x) = Sayi
 ENDFOR
+DISPLAY
 DISPLAY "Girdiğiniz Sayılar "
 FOR x = 0 TO 9
 DISPLAY Sayilar(x)
