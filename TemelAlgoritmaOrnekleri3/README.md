@@ -502,3 +502,4 @@ DISPLAY x + " = " + Sayı + "!"
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![Gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/TemelAlgoritmaOrnekleri3/Images/Faktoriyel.png)
+
