@@ -4,7 +4,7 @@
 
 # Algoritma Yazımı
 
-Algoritmayı yazılı hale getirmenin üç yönetmi vardır:
+Algoritmayı yazılı hale getirmenin üç yöntemi vardır:
 
 1. Satır Algoritma
 2. Akış Diyagramı
@@ -30,7 +30,7 @@ Akış diyagramı, algoritmanın belirli grafikler kullanılarak ifade edilen ş
 
 ![gorsel](https://www.muhammettopcu.com/wp-content/uploads/2019/06/Flowchart-tan%C4%B1mlar%C4%B1-1.png)
 
-Örnek göstermi;
+Örnek gösterimi;
 
 ![gorsel](https://upload.wikimedia.org/wikipedia/commons/a/ac/LampFlowchart_tr.svg)
 
