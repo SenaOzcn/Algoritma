@@ -33,3 +33,40 @@ Bir dizinin tüm elemanları aynı veri tipinde olur.
 
 Diziler tek boyutlu olmanın dışında, iki boyutlu matrisler ve çok boyutlu yapılar olarak da kullanılabilirler.
 
+## Tek Boyutlu Diziler
+
+Liste şeklinde belirli sayıda aynı veri tipinde eleman barındıran dizilere tek boyutlu diziler denir. 
+```
+Kullanıcıdan 1-12 arasında bir değer alarak, aldığı değerlerin karşılığı olan ay adını ekrana yazdıran algoritmayı tasarlayın.
+```
+12 elemanlı ve tek boyutlu bir dizi tanımlayarak bu problemi çözebiliriz.
+
+Şimdi girdimizi, listemizi ve çıktımızı tanımlayalım.
+```
+AyNo
+Aylar Dizi(12)
+AyAdi
+```
+Şimdi dizi içindeki her bir elemanın değerini atayalım.
+```
+Aylar(0) = "Ocak"
+Aylar(1) = "Şubat"
+Aylar(2) = "Mart"
+...
+Aylar(10) = "Kasım"
+Aylar(11) = "Aralık"
+```
+Bir dizinin elemanlarına değer atamanın pratik bir yolu da asağıdaki gibidir;
+```
+Aylar Dizi(12) = "Ocak", "Şubat", "Mart",..., "Kasım", "Aralık"
+```
+Sözde Kod :
+```
+Aylar ARRAY(12) = "Ocak" , "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"
+DISPLAY "Ay no : "
+GET AyNo
+AyAdi = Aylar(AyNo - 1)
+DISPLAY AyAdi
+```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
