@@ -495,9 +495,9 @@ x = 1
 DISPLAY "Sayı => "
 GET Sayı
 FOR i = 1 TO Sayı
-x /= i
+x = x * i
 ENDFOR
-DISPLAY Sayı + " = " + x + "!"
+DISPLAY x + " = " + Sayı + "!"
 ```
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
