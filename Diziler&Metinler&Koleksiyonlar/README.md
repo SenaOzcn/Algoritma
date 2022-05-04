@@ -71,3 +71,28 @@ DISPLAY AyAdi
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Images/Aylar.png)
+
+```
+Kullanıcıdan 10 adet sayı alıp, aldığı sayıları sırasıyla ekrana yazdıran algoritmayı tasarlayın.
+```
+Yapmamız gereken, her adımda alınan değeri(sayıyı) ayrı bir değişkene, yani dizi içindeki ayrı bir elemana atamak. Böylece sayaç işleminin sonunda, kullanıcının girdiği bütün sayılar elimizde olacaktır. Bunu sağlamak için 0 no'lu indexten başlayan ve indexi sayacın her dımında bir arttırarak dizinin sırasıyla her bir elemanına girilen değeri yükleyeceğiz.
+```
+Sayac (x = 0 TO 9 STEP 1)
+DISPLAY Sayi
+Sayilar(x) = Sayi
+SayacSonu
+```
+Sözde Kod :
+```
+Sayilar ARRAY(10)
+Sayi = 0
+DISPLAY "10 adet sayı girin : "
+FOR x = 0 TO 9
+GET Sayi
+Sayilar(x) = Sayi
+ENDFOR
+DISPLAY "Girdiğiniz Sayılar "
+FOR x = 0 TO 9
+DISPLAY Sayilar(x)
+ENDFOR
+```
