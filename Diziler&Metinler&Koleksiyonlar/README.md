@@ -100,3 +100,21 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Images/Sayilar.png)
+
+## Çift Boyutlu Diziler
+
+Tek boyutlu diziler, listelerle çözülmesi gereken problemlerde kullanılırken, satır ve sütunlardan oluşan matris yapılarıyla çözülmesi gereken problemler için iki boyutlu diziler kullanılır.
+
+Matriste, bir elemana ulaşmak için, tek boyutlu dizilerden farklı olaraki iki tane endeks *(index)* kullanılır.
+
+![matrix](https://he-s3.s3.amazonaws.com/media/uploads/873c255.png)
+
+Bu endekslerden birincisi matrisin satırını belirlerke, ikincisi de sütununu belirler. Bu iki endeksin kesişim noktası, matrisin ilgili elemanını verecektir.
+
+Matrislerde de tek boyutlu dizilerde olduğu gibi satır ve sütun endeksleri sıfırdan(0) başlar. Örneğin yukarıdaki matriste 8 değerini taşıyan eleman için satır indexi 1 ve sütun indexi 2 olur. Matris(1,2) ifadesiyle erişilir.
+
+İki boyutlu bir dizi tanımlanırken, önce satır eleman sayısı sonra sütun eleman sayısı belirtilir.
+```
+Dizi(4,6)
+```
+İfadesi 4 satır 6 sütundan oluşan bir matrisi tanımlar.
