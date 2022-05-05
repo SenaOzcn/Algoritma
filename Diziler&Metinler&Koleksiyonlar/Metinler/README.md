@@ -77,3 +77,19 @@ DISPLAY YeniMetin
 Çözümün Java ile programlanmış hali aşağıdaki gibidir;
  
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Metinler/Images/KosulluKarakter.png)
+
+```
+Klavyeden girilen bir metnin karakterlerini alt alta ekrana yazdıran algoritmayı tasarlayın.
+```
+Sözde Kod :
+```
+Metin = ""
+DISPLAY "Metin girin : "
+GET Metin
+FOR i = 0 TO LEN(Metin)
+   DISPLAY SUBSTRING(Metin, i, 1)
+ENDFOR
+```
+Çözümün Java ile programlanmış hali aşağıdaki gibidir;
+ 
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Metinler/Images/AltAltaYazdirma.png)
