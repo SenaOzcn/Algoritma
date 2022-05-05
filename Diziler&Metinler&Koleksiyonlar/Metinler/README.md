@@ -132,7 +132,7 @@ ENDFOR
  
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Metinler/Images/ArtarakAltAltaYazdirma.png)
 
-Tersten okunuşu, normal okunuşuyla aynı olan kelime, cümle ya da sayılara **palindrom** denir.
+Tersten okunuşu, normal okunuşuyla aynı olan kelime, cümle ya da sayılara **polindrom** denir.
 ```
 Klavyeden girilen bir metnin palindrom olup olmadığını ekrana yazdıran algoritmayı tasarlayın.
 ```
