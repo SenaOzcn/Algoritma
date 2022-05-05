@@ -138,3 +138,41 @@ Sayac (Satir = 0 TO 2 STEP 1)
    SayacSonu
 SayacSonu
 ```
+Şimdi örnek problem çözerek beceri elde edelim.
+```
+2x3'lük sıfır matrisi oluşturan ve matrisi ekrana yazdıran algoritmayı tasarlayın.
+```
+**Sıfır matrisi** tüm elemanları sıfırdan oluşan matrislere denir.
+
+2x3'lük matris ise, 2 satır ve 3 sütundan oluşan matrisdir.
+```
+SifirMatrisi(2,3)
+```
+Sıfır matrisi elde etmek için, matrisn tüm satır va sütunlarına teker teker 0 değerini atamamız gerekir. Bunun için *iç içe ikili sayaç yapısı* kullanılacaktır.
+```
+Sayac (Satir = 0 TO 1 STEP 1)
+   Sayac (Sutun = 0 TO 2 STEP 1)
+      SifirMatrisi(Satir,Sutun) = 0
+   SayacSonu
+SayacSonu
+```
+
+Sözde Kod :
+```
+SifirMatrisi(2,3)
+Satir = 0, Sutun = 0
+FOR Satir = 0 TO 1
+   FOR Sutun = 0 TO 2
+      SifirMatrisi(Satir,Sutun) = 0
+   ENDFOR
+ENDFOR
+FOR Satir = 0 TO 1
+   FOR Sutun = 0 TO 2
+      DISPLAY SifirMatrisi(Satir,Sutun)
+   ENDFOR
+   DISPLAY (NEWLINE)
+ENDFOR
+```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Images/SifirMatris.png)
