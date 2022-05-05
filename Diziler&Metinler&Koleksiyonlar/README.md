@@ -176,3 +176,44 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Images/SifirMatris.png)
+
+```
+2x3'lük iki matrisi toplayan ve sonucu ekrana yazdıran algoritmayı tasarlayın.
+(BirinciMatris((2,3,4),(5,4,3)), IkinciMatris((6,2,7),(2,9,8)))
+```
+Problemin çözümü için ilk olarak girdilere bakalım.
+
+Elimizde iki adet 2x3 boyutlarında matris var. Bu matrisleri tanımlayalım.
+```
+BirinciMatris(2,3) = (2,3,4), (5,4,3)
+IkinciMatris(2,3) = (6,2,7), (2,9,8)
+```
+Toplam için de bir matris tanımlayalım.
+```
+ToplamMatris(2,3)
+```
+Aynı satır ve sütun değerleri için birinci ve ikinci matristen eleman değerlerini okuyup, bu iki elemanı toplayarak bulacağımız değeri, toplam matrisin ilgili elemanına yükleriz.
+```
+ToplamMatris[satir,sutun) = BirinciMatris(satir,sutun) + IkinciMatris(satir,sutun)
+```
+Sözde Kod :
+```
+BirinciMatris(2,3) = (2,3,4), (5,4,3)
+İkinciMatris(2,3) = (6,2,7), (2,9,8)
+ToplamMatris ARRAY(2,3)
+int satir(i) = 0, sutun(j) = 0
+FOR i = 0 TO 1 STEP 1
+   FOR j=0 TO 2 STEP 1
+      ToplamMatris(i,j) = BirinciMatris(i,j) + IkınciMatris(i,j)
+   ENDFOR
+ENDFOR
+FOR i = 0 TO 1 STEP 1
+   FOR j = 0 TO 2 STEP 1
+      DISPLAY ToplamMatris(i,j) + "\t"
+   ENDFOR
+   DISPLAY (NEWLINE)
+ENDFOR
+```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Images/ToplamMatris.png)
