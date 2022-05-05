@@ -60,3 +60,4 @@ ENDFOR
 Çözümün Java ile programlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Koleksiyonlar/Images/TersSiralama.png)
+
