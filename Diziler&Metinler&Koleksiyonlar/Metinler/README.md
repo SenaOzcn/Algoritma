@@ -131,3 +131,32 @@ ENDFOR
 Çözümün Java ile programlanmış hali aşağıdaki gibidir;
  
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Metinler/Images/ArtarakAltAltaYazdirma.png)
+
+Tersten okunuşu, normal okunuşuyla aynı olan kelime, cümle ya da sayılara **palindrom** denir.
+```
+Klavyeden girilen bir metnin palindrom olup olmadığını ekrana yazdıran algoritmayı tasarlayın.
+```
+Çözümü algoritmaya dökelim:
+- Kullanıcıdan metin alma
+- Metni terse çevirerek yeni bir metin oluşturma
+- İki metin aynıysa *"polindrom"* yaz.
+- İki metin aynı değilse *"polindron değil"* yaz.
+
+Sözde Kod :
+```
+Metin = ""
+TersMetin = ""
+DISPLAY "Metin girin : "
+GET Metin
+FOR i = LEN(Metin) TO 0 STEP -1
+   TersMetin= TersMetin + SUBSTRING(Metin,i,i+1)
+ENDFOR
+IF Metin = TersMetin
+   DISPLAY "POLINDROM !"
+ELSE
+   DISPLAY "Polindrom değil."
+ENDIF
+```
+Çözümün Java ile programlanmış hali aşağıdaki gibidir;
+ 
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Metinler/Images/Polindrom.png)
