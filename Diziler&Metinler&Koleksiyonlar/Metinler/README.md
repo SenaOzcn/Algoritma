@@ -31,3 +31,24 @@ DISPLAY YeniMetin
 Çözümün Java ile programlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Metinler/Images/BuyukHarfeDonusturme.png)
+
+```
+Klavyeden girilen bir metnin üçüncü karakterinden başlayarak 5 karakteri ekrana yazdıran algoritmayı tasarlayın.
+```
+Metin içinden alt metin çıkartma işlemi olduğunu net bir şekilde tespit edelim. Bir metnin içinden alt metin çıkartırken ihtiyacımız olan üç şey vardır:
+1. Ana metin
+2. Başlangıç karakteri (endeks)
+3. Kaç karakter alınacağı (uzunluk)
+
+Sözde Kod :
+```
+Metin = ""
+YeniMetin = ""
+DISPLAY "Metin girin : "
+GET Metin
+YeniMetin = SUBSTRING(Metin,3,5)
+DISPLAY YeniMetin
+```
+Çözümün Java ile programlanmış hali aşağıdaki gibidir;
+ 
+ ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Metinler/Images/KarakterUcBes.png)
