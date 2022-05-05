@@ -52,3 +52,28 @@ DISPLAY YeniMetin
 Çözümün Java ile programlanmış hali aşağıdaki gibidir;
  
  ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Metinler/Images/KarakterUcBes.png)
+```
+Klavyeden girilen bir metnin üçüncü karakterinden başlayarak 5 karakteri ekrana yazdıran algoritmayı tasarlayın. Eğer karakter sayısı 8'den azsa, kullanıcıya "Girilen metnin uzunluğu en az 8 karakter olmalıdır" mesajı verilsin.
+```
+Çözümün aşamaları aşağıdaki gibi olacaktır;
+
+- Kullanıcıdan metin al
+- Metnin karakter sayısını bul
+- Karakter sayısı 8 ve daha fazlaysa işlemi yap
+- Karakter sayısı 8'den küçükse mesaj ver.
+
+Sözde Kod :
+```
+Metin = "", YeniMetin = ""
+DISPLAY "Metin Girin : "
+GET Metin
+IF LEN(Metin) >= 8 THEN
+   YeniMetin = SUBSTRING(3,5)
+ELSE
+   DISPLAY "Girilen metnin uzunluğu en az 8 karakter olmalıdır!"
+ENDIF
+DISPLAY YeniMetin
+```
+Çözümün Java ile programlanmış hali aşağıdaki gibidir;
+ 
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Metinler/Images/KosulluKarakter.png)
