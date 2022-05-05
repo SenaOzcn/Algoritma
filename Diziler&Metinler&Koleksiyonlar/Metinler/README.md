@@ -93,3 +93,38 @@ ENDFOR
 Çözümün Java ile programlanmış hali aşağıdaki gibidir;
  
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Metinler/Images/AltAltaYazdirma.png)
+
+```
+Klavyeden girilen bir metni aşağıdaki örnekteki gibi ekrana yazdıran algoritmayı tasarlayın.
+Örnek kelime : Algoritma
+A
+Al
+Alg
+Algo
+Algor
+Algori
+Algorit
+Algoritm
+Algoritma
+```
+Yapılan işlem yine bir metiden alt metin çıkartma olduğu için, yine AltMetin fonksiyonunu kullanıyoruz.
+```
+A             AltMetin(Metin,0,1)
+Al            AltMetin(Metin,0,2)
+Alg           AltMetin(Metin,0,3)
+Algo          AltMetin(Metin,0,4)
+Algor         AltMetin(Metin,0,5)
+Algori        AltMetin(Metin,0,6)
+Algorit       AltMetin(Metin,0,7)
+Algoritm      AltMetin(Metin,0,8)
+Algoritma     AltMetin(Metin,0,9)
+```
+Sözde Kod :
+```
+Metin = ""
+DISPLAY "Metin girin : "
+GET Metin
+FOR i = 1 TO LEN(Metin)
+   DISPLAY SUBSTRING(Metin,0,i)
+ENDFOR
+```
