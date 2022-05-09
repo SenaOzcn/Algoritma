@@ -286,10 +286,10 @@ turkcesi = ""
 ingilizcesi = ""
 renkler Sozluk
 renkler.ADD("beyaz", "white")
-renkler.ADD("kırmızı", "red")
+renkler.ADD("kirmizi", "red")
 renkler.ADD("mavi", "blue")
 renkler.ADD("siyah", "black")
-renkler.ADD("sarı", "yellow")
+renkler.ADD("sari", "yellow")
 DISPLAY "Renk ? "
 GET turkcesi
 IF renkler.CONTAINSKEY(turkcesi) = true
@@ -302,3 +302,49 @@ ENDIF
 Çözümün Java ile programlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Koleksiyonlar/Images/Renkler.png)
+
+```
+Klavyeden girilen metni karakterlerine ayrıştırarak, hangi karakterlerin kaç kez kullanıldığını ekrana yazdıran algoritmayı tasarlayın.
+```
+Programın girdisi kullanıcıdan alınan metin, çıktısıysa bu metnin karakterleri ve bu karakterlerin kullanım sayıları olacaktır.
+
+Örneğin, kullanıcı ekrandan *"programlama"* metnini girerse, çözümümüzün ekrana şöyle bir sonuç yazdırması gerekiyor.
+```
+p - 1
+r - 2
+o - 1
+g - 1
+a - 3
+m - 2
+l - 1
+```
+Bu çözüme ulaşmak için metnin karakterlerini ve bu karakterlerin kaç kez tekrar ettiği bilgisini birlikte tutacak bir yapıya ihtiyacımız vardır. Bu durumda açıkça sözlük yapısını kullanmamız gerektiğini görürüz.
+```
+Karakterler Sozluk
+```
+Şimdi girilen metnin karakterlerini sözlüğe ekleyelim. Bu ekleme işleminde, *metnin **harflerini sözlüğün anahtarı** olarak kullanacağız. **Harfin kaç kez kullanıldığını da değer** olarak ekleyeceğiz.* Bir karakterin sözlüğe ilk kez eklenirken, kullanılma sayısı olarak 1 ekleyeceğiz.
+```
+Karakterler.Ekle(karakter, 1)
+```
+Sözde Kod :
+```
+Metin = ""
+Karakter = ""
+Tekrar = 0
+DISPLAY "Bir metin girin : "
+GET Metin
+FOR i = 0 TO Metin.Uzunluk - 1
+   Karakter = SUBSTRING(Metin, i, 1)
+   IF Karakterler.CONTAINSKEY(Karakter) = true THEN
+      Tekrar = Karakterler(Karakter)
+      Karakterler(karakter) = Tekrar + 1
+   ELSE
+      Karakterler.ADD(Karakter, 1)
+   ENDIF
+ENDFOR
+FOR i = 0 TO Karakterler.SIZE()
+   DISPLAY Karakterler.Keys(i)
+   DISPLAY "-"
+   DISPLAY Karakterler.Values(i)
+ENDFOR
+```
