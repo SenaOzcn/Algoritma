@@ -4,7 +4,7 @@
 import java.util.*; 
 import java.util.ArrayList;
 
-class TekrarsizTerSiralama {
+class TekrarsizTersSiralama {
   public static void main(String args[]) {
         String karakter = "";
         int i = 0;
