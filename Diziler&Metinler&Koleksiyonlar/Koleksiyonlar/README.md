@@ -239,3 +239,63 @@ DISPLAY sonuc
 Çözümün Java ile programlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Koleksiyonlar/Images/KuyrukIslem.png)
+
+## Sözlük Yapısı
+
+Bazı durumlarda bir elemanı anahtar bir değere bağlı olarak listeye eklemek gerekebilir. Örneğin; bir Türkçe - İngilizce sözlük yapacak olalım. Bu durumda kelimeleri listelediğimiz yapıda son kelimeyi almak, en üsttekini almak ya da belirli bir endekstekini almak çok anlamlı olmayacaktır. Böyle bir problemin çözümü için, listeden eleman alırken bir anahtar bilgisi verip, karşılığında belirli bir eleman içindeki değeri okuyabilmemiz gerekir.
+```
+kırmızı | red || beyaz | white || mavi | blue || siyah | black || sarı | yellow
+```
+*Türkçe sözcükler anahtar, ingilizce sözcükler ise değer bilgileridir.*
+
+```
+Endeks        0       1       2       3       4
+Anahtar    kırmızı  beyaz    mavi   siyah    sarı
+Değer        red    white    blue   black   yellow
+```
+Bir sözlüğü aşağıdaki gibi tanımlayabiliriz.
+```
+Renkler Sozluk
+```
+Sözlük yapısındaki bir koleksiyona yeni bir eleman eklerken, elemanın hem anahtar bilgisini hem de değerini vermemiz gerekir.
+```
+Renkler.Ekle("kırmızı", "red")
+Renkler.Ekle("beyaz", "white")
+Renkler.Ekle("mavi", "blue")
+Renkler.Ekle("sarı", "yellow")
+```
+Dört elemanlı bir sözlüğümüz olmuş oldu. Sarı renginin ingilizce karşılığını bulmak için ;
+```
+Yaz Renkler("sarı")
+```
+Ekrana "yellow" değeri yazdırılacaktır.
+```
+Klavyeden girilen Türkçe bir rengin İngilizce karşılığını ekrana yazdıran algoritmayı tasarlayın.
+Sözlük başlangıçta 5 Türkçe rengin İngilizce karşılığı yüklü olarak çalışacaktır.
+Sözlükte karşığı olmayan bir kelime girildiğinde, kullanıcıya bu kelimenin sözlükte bulunmadığı bir mesajla iletilir.
+```
+Girdi, çıktı ve değerler;
+```
+Renkler ?
+Turkcesi = ""
+Ingilizcesi = ""
+```
+Sözde Kod :
+```
+turkcesi = ""
+ingilizcesi = ""
+renkler Sozluk
+renkler.ADD("beyaz", "white")
+renkler.ADD("kırmızı", "red")
+renkler.ADD("mavi", "blue")
+renkler.ADD("siyah", "black")
+renkler.ADD("sarı", "yellow")
+DISPLAY "Renk ? "
+GET turkcesi
+IF ingilizcesi.CONTAINSKEY(turkcesi) = true
+   ingilizcesi = renkler(turkcesi)
+   DISPLAY ingilizcesi
+ELSE
+   DISPLAY "Renk bulunamadı."
+ENDIF
+```
