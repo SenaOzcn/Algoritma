@@ -61,3 +61,37 @@ ENDFOR
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Koleksiyonlar/Images/TersSiralama.png)
 
+```
+Klavyeden girilen n tane kelimeyi alarak tersten sıralayıp, ekrana yazdıran algoritmayı tasarlayın.(Aynı kelime listede sadece bir kez yer almalıdır.)
+```
+Bir kelimenin listede sadece bir kez yer alması için, kullanıcının girdiği kelimeyi listeye eklemeden önce, o kelimenin listede olup olmadığını kontrol etmemiz gerekmektedir. Bu kontrol sırasında eğer kelime listede varsa, yeniden listeye eklenmez. Eğer kelime yoksa listeye eklenir.
+
+```
+Eğer (Kelimeler.Icerir(karakter) = Yanlış) Kelime.Ekle(karakter)
+```
+Bu yeni çözümde bir de kullanıcın en son girdiği boş metni siliyoruz. Bunun için yine liste yapısnın metodunu çalıştırmamız yeterli olacaktır.
+```
+Kelimeler.Sil("")
+```
+Sözde Kod :
+```
+karakter = ""
+Kelimeler liste
+LOOP
+   DISPLAY "Bir kelime girin : "
+   GET karakter
+   IF (Kelimeler.CONTAINS(karakter) = False
+      Kelimeler.ADD(karakter)
+   ENDIF
+ENDLOOP (karakter<>"")
+Kelimeler.Remove("")
+Kelimeler.Reverse
+DISPLAY
+DISPLAY "Girmiş olduğunuz karakterlerin ters sıralanışı : "
+FOR i = 0 TO Kelimeler.Count - 1
+   DISPLAY Kelimeler(i)
+ENDFOR
+```
+Çözümün Java ile programlanmış hali aşağıdaki gibidir;
+
+![gorsel(https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Koleksiyonlar/Images/TekrarsizTersSiralama.png)
