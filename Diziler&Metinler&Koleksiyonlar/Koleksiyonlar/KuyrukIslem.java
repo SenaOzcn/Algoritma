@@ -3,6 +3,7 @@
 
 import java.util.*;
 import java.util.Queue;
+import java.util.LinkedList;
 
 class KuyrukIslem {
   public static void main(String args[]) {
