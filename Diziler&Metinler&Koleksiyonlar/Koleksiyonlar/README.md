@@ -221,7 +221,7 @@ FOR (i = 0 TO LEN(ifade) - 1)
 ENDFOR
 sayi1 = sayilar.GET
 FOR i = 0 TO sayilar.size()
-   sayilar2 = sayilar.GET
+   sayi2 = sayilar.GET
    islem = islemler.GET
    IF islem = "+" THEN
       sonuc = sayi1 + sayi2
@@ -236,3 +236,6 @@ FOR i = 0 TO sayilar.size()
 ENDFOR
 DISPLAY sonuc
 ```
+Çözümün Java ile programlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Koleksiyonlar/Images/KuyrukIslem.png)
