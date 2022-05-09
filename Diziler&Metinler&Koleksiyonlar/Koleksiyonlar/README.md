@@ -95,3 +95,43 @@ ENDFOR
 Çözümün Java ile programlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Koleksiyonlar/Images/TekrarsizTersSiralama.png)
+
+## Yığın (Stack) Yapısı
+
+Bu yapıya yeni bir eleman ekleyeceğimiz zaman, bu yeni eleman, dizinin en sonuna eklenir. Yığından bir şey alacağımız zaman da ancak en üsttekini alabiliriz.
+```
+                  C
+            B     B     B     B
+      A     A     A     A     A     A
+1     2     3     4     5     6     7     8
+```
+1. Yığın tanımlanıyor.
+2. Yığına eleman ekleniyor - "A"
+3. Yığına eleman ekleniyor - "B"
+4. Yığına eleman ekleniyor - "C"
+5. Yığından eleman çekiliyor - "C"
+6. Yığındaki en üste eleman değeri okunuyor - "B"
+7. Yığından elemn çekiliyor - "B"
+8. Yığından eleman çekiliyor - "A"
+
+Son giren ilk çıkar **- Last In - First Out (LIFO)** mantığıyla çalışır.
+
+```
+Klavyeden girilen metnin karakterini tersten sıralı olarak alt alta ekrana yazdıran algoritmayı tasarlayın.
+```
+Sözde Kod :
+```
+harfler Yigin
+x = 0
+metin = ""
+harf = ""
+DISPLAY "Bir metin girin : "
+GET metin
+FOR i = 0 TO LEN(metin) - 1
+   harf = SUBSTRING(metin,i,1)
+   harfler.ADD(harf)
+ENDFOR
+FOR i = 0 TO harfler.COUNT - 1
+   DISPLAY(harfler.GET)
+ENDFOR
+```
