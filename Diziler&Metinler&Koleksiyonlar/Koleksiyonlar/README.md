@@ -348,3 +348,6 @@ FOR i = 0 TO Karakterler.SIZE()
    DISPLAY Karakterler.Values(i)
 ENDFOR
 ```
+Çözümün Java ile programlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Koleksiyonlar/Images/Karakter.png)
