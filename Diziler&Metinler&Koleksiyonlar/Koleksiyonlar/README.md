@@ -139,7 +139,7 @@ ENDFOR
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Koleksiyonlar/Images/YiginReverse.png)
 
-## Kuyruk (QUEQUE) Yapısı
+## Kuyruk (QUEUE) Yapısı
 
 Kuyruk yapısı, ilk girine ilk çıkar **- First In - First Out (FIFO)** mantığıyla çalışan tek boyutlu bir liste yapısıdır. 
 ```
