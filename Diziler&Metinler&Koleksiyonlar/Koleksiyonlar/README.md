@@ -138,3 +138,25 @@ ENDFOR
 Çözümün Java ile programlanmış hali aşağıdaki gibidir;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Koleksiyonlar/Images/YiginReverse.png)
+
+## Kuyruk (QUEQUE) Yapısı
+
+Kuyruk yapısı, ilk girine ilk çıkar **- First In - First Out (FIFO)** mantığıyla çalışan tek boyutlu bir liste yapısıdır. 
+```
+1
+2   -> A ->
+3   -> B | A ->
+4   -> C | B | A ->
+5   -> C | B ->
+6   -> C | B ->
+7   -> C ->
+8
+```
+1. Kuyruk tanımlanıyor.
+2. Kuyruğa eleman ekleniyor - *"A"*
+3. Kuyruğa eleman ekleniyor - *"B"*
+4. Kuyruğa eleman ekleniyor - *"C"*
+5. Kuyruktan eleman çekiliyor - *"A"*
+6. Kuyruğun önündeki eleman okunuyor - *"B"*
+7. Kuyruktan eleman çekiliyor - *"B"*
+8. Kuyruktan eleman çekiliyor - *"C"*
