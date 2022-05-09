@@ -292,10 +292,13 @@ renkler.ADD("siyah", "black")
 renkler.ADD("sarı", "yellow")
 DISPLAY "Renk ? "
 GET turkcesi
-IF ingilizcesi.CONTAINSKEY(turkcesi) = true
+IF renkler.CONTAINSKEY(turkcesi) = true
    ingilizcesi = renkler(turkcesi)
    DISPLAY ingilizcesi
 ELSE
    DISPLAY "Renk bulunamadı."
 ENDIF
 ```
+Çözümün Java ile programlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Koleksiyonlar/Images/Renkler.png)
