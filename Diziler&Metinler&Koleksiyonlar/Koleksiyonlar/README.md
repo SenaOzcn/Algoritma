@@ -160,3 +160,79 @@ Kuyruk yapısı, ilk girine ilk çıkar **- First In - First Out (FIFO)** mantı
 6. Kuyruğun önündeki eleman okunuyor - *"B"*
 7. Kuyruktan eleman çekiliyor - *"B"*
 8. Kuyruktan eleman çekiliyor - *"C"*
+```
+Klavyeden girilen dört işlemden oluşan bir ifadeyi hesaplayarak ekrana yazdıran algoritmayı tasarlayın. (İşlemler parantez içermeyecektir ve sayılar tek basamaklı olacaktır.)
+```
+- İlk karakter sayıdır.
+- Son karakter sayıdır.
+- 2, 4, 6, 8 no'lu karakterler işlem belirtir.
+- 1, 3, 5, 7, 9 no'lu karakterler sayı belirtir.
+- Çift sayılı elemanlar işlem(+, -, *, /) belirtir.
+- Tek sayılı elemanlar sayı belirtir.
+
+Girdi, çıktı ve değişkenlerimiz ;
+```
+Sayilar Yigin
+Islemler Yigin
+Karakter = ""
+Ifade = ""
+i = 0
+```
+
+*Tek endeksli karakterler sayı, çift endeksli karakterler işlemdir.* 
+
+Normalde doğru olan bu ifadeler, sayaç *sıfırdan(0)* başladığı için tersine dönecektir.
+
+```
+Normal Endeks     1     2     3     4     5     6     7     8     9
+Tek/Çift         Tek   Çift  Tek   Çift  Tek   Çift  Tek   Çift  Tek
+Sayaçtaki Endeks  0     1     2     3     4     5     6     7     8
+Tek/Çift         Çift  Tek  Çift   Tek   Çift  Tek   Çift  Tek   Çift
+```
+Bu nedenle endeks çift sayı olduğunda sayı, tek sayı olduğunda işlemlere atayacağız.
+```
+Sayac (i = 0 TO LEN(Ifade) - 1)
+   Karakter = AltMetin(Ifade,i,1)
+   Eğer
+      (i MOD 2 = 0) Sayilar.Ekle(Karakter)
+      (Değilse) ISlemler.Ekle(Karakter)
+SayacSonu
+```
+Sözde Kod :
+```
+sayilar Kuyruk
+islemler Kuyruk
+ifade = ""
+karakter = ""
+i = 0
+sayi1 = 0
+sayi2 = 0
+sonuc = 0
+islem = ""
+DISPLAY "Bir ifade girin : "
+GET ifade
+FOR (i = 0 TO LEN(ifade) - 1)
+   karakter = SUBSTRING(ifade,i,1)
+   IF i MOD 2 = 0 THEN
+      sayilar.ADD(karakter)
+   ELSE
+      islemler.ADD(karakter)
+   ENDIF
+ENDFOR
+sayi1 = sayilar.GET
+FOR i = 0 TO sayilar.size()
+   sayilar2 = sayilar.GET
+   islem = islemler.GET
+   IF islem = "+" THEN
+      sonuc = sayi1 + sayi2
+   ELSE IF islem = "-" THEN
+      sonuc = sayi1 - sayi2
+   ELSE IF islem = "*" THEN
+      sonuc = islem1 * islem2
+   ELSE
+      sonuc = sayi1 / sayi2
+   ENDIF
+   sonuc = sayi1
+ENDFOR
+DISPLAY sonuc
+```
