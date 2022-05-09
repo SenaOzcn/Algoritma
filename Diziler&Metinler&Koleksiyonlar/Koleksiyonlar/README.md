@@ -122,7 +122,7 @@ Klavyeden girilen metnin karakterini tersten sıralı olarak alt alta ekrana yaz
 Sözde Kod :
 ```
 harfler Yigin
-x = 0
+i = 0
 metin = ""
 harf = ""
 DISPLAY "Bir metin girin : "
@@ -135,3 +135,6 @@ FOR i = 0 TO harfler.COUNT - 1
    DISPLAY(harfler.GET)
 ENDFOR
 ```
+Çözümün Java ile programlanmış hali aşağıdaki gibidir;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Koleksiyonlar/Images/YiginReverse.png)
