@@ -21,3 +21,6 @@ Zar1 = RND(1, 6)
 Zar2 = RND(1, 6)
 DISPLAY Zar1 + " - " + Zar2
 ```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir ;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Problem%20%C3%87%C3%B6z%C3%BCmleme%20Y%C3%B6ntemleri/Images/RasgeleSayi.png)
