@@ -86,3 +86,26 @@ ENDFOR
 Çözümün Java ile programlanmış hali ;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Al%C4%B1stirmalar/Images/CarpimMatris.png)
+
+### 4) Verilen bir metin içindeki sesli harfleri sayan algoritmayı tasarlayın.
+
+Sözde Kod :
+```
+Metin = ""
+char karakter
+sayac = 0
+i = 0
+DISPLAY "Metin girin : "
+GET Metin
+FOR i = 0 TO LEN(Metin) STEP 1
+   karakter = Metin.charAt(i)
+   IF (karakter = 'a' || karakter = 'e' || karakter = 'ı' || karakter = 'i' || karakter = 'o' || karakter = 'ö' || karakter = 'u' || karakter = 'ü' ||
+   karakter = 'A' || karakter = 'E' || karakter = 'I' || karakter = 'İ' || karakter = 'O' || karakter = 'Ö' || karakter = 'U' || karakter = 'Ü')
+      sayac++
+   ENDIF
+ENDFOR
+DISPLAY sayac + " adet sesli harf vardır."
+```
+Çözümün Java ile programlanmış hali ;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Al%C4%B1stirmalar/Images/SesliHarf.png)
