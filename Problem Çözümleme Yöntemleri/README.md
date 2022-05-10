@@ -24,3 +24,74 @@ DISPLAY Zar1 + " - " + Zar2
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir ;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Problem%20%C3%87%C3%B6z%C3%BCmleme%20Y%C3%B6ntemleri/Images/RasgeleSayi.png)
+
+Rasgele değer üreterek geliştirilen çözümlerle ilgili birkaç temel yöntem vardır.
+
+Bunlar aşağıdaki gibidir.
+
+- Çekileni geri ekleyerek çekiliş yapma
+- Çekileni listeden çıkartarak çekiliş yapma
+
+1 ile 6 arasındaki rakamları birer kağıda yazıp, kağıtları katlayarak rakamlar görünmeyecek şekilde bir kavanoza koyduğumuzu ve daha sonra buradan bir kağıt çekerek rakamı okuduğumuzu düşünün. *"birinci zarı atma"* işlemi...
+
+Şimdi ikinci zarı atma işlemine geçelim. İkinci zar için çekiliş yaparken, kavanozdan çıkarttığımız kağıdı katlayarak tekrar kavanoza koymalıyız. Aksi halde zar atmada hata alırız. Şimdi kavanozdaki kağıtları karıştırarak yeniden bir kağıt çekelim. Çekileni geri ekleyerek zar atma işlemi...
+
+*"Çekileni listeden çıkartarak çekiliş yapma"* işlemiyse, daha çok piyango vb. işlemlerin çözümünde kullanılır.
+
+```
+10 kişilik bir isim listesi içerisinden çekiliş yaparak birinci, ikinci ve üçüncü talihliyi belirleyip ekrana yazdıran algoritmayı tasarlayın.
+```
+Çözümün girdisi;
+```
+isim1
+isim2
+isim3
+isim4
+isim5
+isim6
+isim7
+isim8
+isim9
+isim10
+```
+Çözümün çıktısı;
+```
+Birinci
+Ikinci
+Ucuncu
+```
+Sözde Kod :
+```
+Endeks = 0, i = 0
+kazananlar ARRAY
+katilimcilar Liste
+DISPLAY "isim1 => "
+GET isim1
+DISPLAY "isim2 => "
+GET isim2
+DISPLAY "isim3 => "
+GET isim3
+DISPLAY "isim4 => "
+GET isim4
+DISPLAY "isim5 => "
+GET isim5
+DISPLAY "isim6 => "
+GET isim6
+DISPLAY "isim7 => "
+GET isim7
+DISPLAY "isim8 => "
+GET isim8
+DISPLAY "isim9 => "
+GET isim9
+DISPLAY "isim10 => "
+GET isim10
+katilimcilar.ADDRANGE (isim1, isim2, isim3, isim4, isim5, isim6, isim7, isim8, isim9, isim10)
+FOR i = 0 TO 2 STEP 1
+   endeks = RND(0, katilimcilar.Count - 1)
+   kazananlar(i) = katilimcilar(endeks)
+   katilimcilar.RemoveAt(endeks)
+ENDFOR
+FOR i = 0 TO 2
+   DISPLAY ((i + 1) + ". talihli : " + kazananlar(i)
+ENDFOR
+```
