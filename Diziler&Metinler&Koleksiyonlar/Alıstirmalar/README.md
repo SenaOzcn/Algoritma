@@ -58,3 +58,6 @@ FOR i = 0 TO 2 STEP 1
    DISPLAY(NEWLINE)
 ENDFOR
 ```
+Çözümün Java ile programlanmış hali ;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Al%C4%B1stirmalar/Images/ToplamMatris.png)
