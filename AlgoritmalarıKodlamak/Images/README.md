@@ -1,1 +1,1 @@
-Görsellerin olduğu dosya.
+### Görsel dosyası
