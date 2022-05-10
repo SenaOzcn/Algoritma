@@ -131,3 +131,6 @@ LOOP
 ENDLOOP (1=1)
 DISPLAY "Toplam = " + toplam
 ```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir ;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Problem%20%C3%87%C3%B6z%C3%BCmleme%20Y%C3%B6ntemleri/KosulluTekrarYapisi.java)
