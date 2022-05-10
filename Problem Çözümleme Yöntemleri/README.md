@@ -98,3 +98,36 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir ;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Problem%20%C3%87%C3%B6z%C3%BCmleme%20Y%C3%B6ntemleri/Images/Cekilis.png)
+
+## Sonsuz Tekrarlı Yapılar ve Çıkış Komutları
+
+Tekrarlı yapının adımları içinde bir yerde bir koşula bakarak çıkış komutu kullanılır.
+```
+Sayac
+   Eğer(...) Sayaçtan çık
+SayacSonu
+```
+```
+Kullanıcıdan sayı alarak, aldığı sayılardan tek olanları toplama ekleyip çift olanları toplamdan çıkartan bir uygulama yazın.
+Uygulama toplam 100 olduğunda ya da 100'ü geçtiğinde, kullanıcı rakam girmeden Enter tuşuna bastığında ya da kullanıcının girdiği rakam 0 ise sonlansın ve girilen sayıların sonucunu ekrana yazdırsın.
+```
+Problem, kullanıcıdan bilinmeyen sayıda girdi alan bir çözüm gerektiriyor. Bu da bize hemen tekrarlı yapıyı çağrıştıryor.
+
+Sözde Kod :
+```
+toplam = 0
+girilen = ""
+LOOP
+   DISPLAY "Bir sayı girin = "
+   GET girilen
+      IF girilen = "" EXIT
+      IF girilen = 0 EXIT
+      IF girilen MOD 2 = 0
+         toplam = toplam - girilen
+      ELSE
+         toplam = toplam + girilen
+      ENDIF
+      IF toplam >= 100 EXIT
+ENDLOOP (1=1)
+DISPLAY "Toplam = " + toplam
+```
