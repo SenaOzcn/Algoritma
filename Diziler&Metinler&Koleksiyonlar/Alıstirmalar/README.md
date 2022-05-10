@@ -37,3 +37,24 @@ ENDFOR
 Çözümün Java ile programlanmış hali ;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Al%C4%B1stirmalar/Images/CiftTekSayilar.png)
+
+### 2) Eşit uzunluktaki iki dizinin aynı endeksli elemanlarını toplayarak yeni bir diziye kopyalayın.
+
+Sözde Kod :
+```
+BirinciMatris(3, 4) = (1, 4, 2, 3), (3, 4, 7, 9), (2, 1, 8, 7)
+IkinciMatris(3, 4) = (4, 1, 3, 2), (2, 1, -2, -4), (3, 4, -3, -2)
+ToplamMatris ARRAY(2, 3)
+satir(i) = 0, sutun(j) = 0
+FOR i = 0 TO 2 STEP 1
+   FOR j = 0 TO 3 STEP 1
+      ToplamMatris(i, j) = BirinciMatris(i, j) + IkinciMatris(i, j)
+   ENDFOR
+ENDFOR
+FOR i = 0 TO 2 STEP 1
+   FOR j = 0 TO 3 STEP 1
+      DISPLAY ToplamMatris(i, j) + "\t"
+   ENDFOR
+   DISPLAY(NEWLINE)
+ENDFOR
+```
