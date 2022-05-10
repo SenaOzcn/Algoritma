@@ -165,3 +165,7 @@ Adım 3
 Adım 4
            Yeni Dizi   4   3   2   1
 ```
+Görüldüğü gibi bu işlem için ikinci bir dizi(Yeni Dizi) oluşturmak gerekmetedir. Bu da bellekten ekstra yer tüketilmesi anlamına gelir.
+
+Tersten sıralama işinin daha verimli bir şekli, dizinin elemanlarının yer değiştirmesiyle mümkündür. Dizinin ilk elemanıyla başlanır. İlk eleman, son eleman ile yer değiştirir. Ardından dizinin ikinci elemanı, sondan ikinci elemanla yer değiştirir. Bu şekilde dizinin tüm elemanları, ikinci bir diziye gerek kalmadan ve de dizideki toplam eleman sayısının yarısı kadar adım sayısında, tersine çevrilmiş olacaktır.
+
