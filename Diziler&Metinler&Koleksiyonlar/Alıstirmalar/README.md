@@ -34,3 +34,6 @@ FOR i = 0 TO sayi_adeti STEP 1
    DISPLAY TekSayilar[i] + "\t"
 ENDFOR
 ```
+Çözümün Java ile programlanmış hali ;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Al%C4%B1stirmalar/Images/CiftTekSayilar.png)
