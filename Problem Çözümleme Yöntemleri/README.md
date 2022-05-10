@@ -134,3 +134,34 @@ DISPLAY "Toplam = " + toplam
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir ;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Problem%20%C3%87%C3%B6z%C3%BCmleme%20Y%C3%B6ntemleri/Images/KosulluTekrarYapisi.png)
+
+## Yer Değiştirme İşlemi
+
+Bir dizideki elemanların ya da iki değişkendeki değerlerin yer değiştirme işlemleridir.
+
+```
+Bir dizinin elemanlarını ters çevirerek ekrana yazdıran algoritmayı tasarlayın.
+```
+Yeni bir dizi tanımlayıp, eski dizinin elemanlarını tersten listeleyen bir döngü içinde yeni diziye aktaracağız.
+```
+FOR i = EskiDizi.ElemanSayisi - 1 TO 0 STEP 1
+  YeniDizi(EskiDizi.ElemanSayisi - 1 - i) = EskiDizi(i)
+ENDFOR
+```
+```
+           Eski Dizi   1   2   3   4
+Adım 1
+           Yeni Dizi   4
+           
+           Eski Dizi   1   2   3   4
+Adım 2
+           Yeni Dizi   4   3
+           
+           Eski Dizi   1   2   3   4
+Adım 3
+           Yeni Dizi   4   3   2
+           
+           Eski Dizi   1   2   3   4
+Adım 4
+           Yeni Dizi   4   3   2   1
+```
