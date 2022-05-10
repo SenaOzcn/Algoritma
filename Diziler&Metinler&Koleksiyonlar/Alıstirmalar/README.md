@@ -61,3 +61,25 @@ ENDFOR
 Çözümün Java ile programlanmış hali ;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Al%C4%B1stirmalar/Images/ToplamMatris.png)
+
+### 3) Verilen 4x4'lük iki matrisin çarpımını bulan algoritmayı tasarlayın.
+
+Sözde Kod :
+```
+BirinciMatris(4, 4) = (2, 4, 6, 8), (1, 3, 5, 7), (1, 2, 3, 4), (9, 8, 7, 6)
+İkinciMatris(4, 4) = (9, 8, 7, 6), (1, 2, 3, 4), (1, 3, 5, 7), (2, 4, 6, 8)
+CarpimMatris ARRAY(4, 4)
+satir(i) = 0, sutun(j) = 0
+FOR i = 0 TO 3 STEP1
+   FOR j = 0 TO 3 STEP 1
+      CarpimMatris(i, j) = BirinciMatris(i, j) * IkınciMatris(i, j)
+   ENDFOR
+ENDFOR
+DISPLAY "Çarpım Matris : "
+FOR i = 0 TO 3 STEP 1
+   FOR j = 0 TO 3 STEP 1
+      DISPLAY CarpimMatris(i, j) + "\t"
+   ENDFOR
+   DISPLAY(NEWLINE)
+ENDFOR
+```
