@@ -1,4 +1,4 @@
-## Resgele Sayı Üretmek
+## Rasgele Sayı Üretmek
 
 Kuralar, çekilişler, oyunlar vb. gibi birçok durumda rasgeleüretilecek bilgilere ihtiyaç duyulur. Örneğin; bir tavla oyunu yazacağımızı düşünelim. Bu durumda kullanıcının zar atmasının **benzeşimine** *(simulation)* ihtiyacımız olacaktır. Yani 1 ile 6 arasında rasgele iki ayrı değer üretebilmeliyiz.
 
