@@ -185,3 +185,6 @@ FOR i = 0 TO dizi.COUNT - 1
    DISPLAY dizi(i)
 ENDFOR
 ```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir ;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Problem%20%C3%87%C3%B6z%C3%BCmleme%20Y%C3%B6ntemleri/Images/YerDegistirmeIslemi.png)
