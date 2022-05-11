@@ -249,3 +249,46 @@ ENDFUNCTION
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir ;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Problem%20%C3%87%C3%B6z%C3%BCmleme%20Y%C3%B6ntemleri/Images/Fonksiyon.png)
+
+## Özyinelemeli Çözüm Geliştirmek
+
+**Özyinelemeli programlama** *(recursive progrramming)* , bir yordamın, kendi kodu içinde kendisini çağırmasıdır.
+
+Yordamın kendisinin bir kopyasını kendi kodu içinde kullanmasıdır.
+```
+FUNCTION Islem(parametre)
+   ...
+   Islem(...)
+   ...
+ENDFUNCTION
+```
+Yordamın sonsuz bir kendini çağırma döngüsüne girmemesi için, yordamın içinde bir yerde çağırma işlemini sonlandıracak bir mantık kodlanmalıdır.
+```
+Klavyeden girilen bir sayının faktöriyelini özyinelemeyle çözerek ekrana yazdıran algoritmayı tasarlayın.
+```
+Faktöriyeli alınacak sayı klavyeden girileceğine göre, girdimiz kullanıcının gireceği bu sayı olacaktır.
+```
+Girdi : 
+sayi
+```
+Uygulamanın çıktısıysa, sayıyı kullanarak hesaplayacağımız faktöriyeldir.
+```
+Çıktı :
+faktoriyel
+```
+Sözde Kod :
+```
+SUB MAIN()
+   sayi = 0
+   DISPLAY "Faktöriyeli bulunacak sayıyı girin = "
+   GET sayi
+   DISPLAY (FaktoriyelHesapla(sayi))
+ENDSUB
+FUNCTION FaktoriyeHesapla(sayi)
+   IF sayi > 1
+      RETURN sayi * FaktoriyelHesapla(sayi - 1)
+   ELSE
+      RETURN 1
+   ENDIF
+ENDFUNCTION
+```
