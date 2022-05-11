@@ -169,3 +169,19 @@ Görüldüğü gibi bu işlem için ikinci bir dizi(Yeni Dizi) oluşturmak gerek
 
 Tersten sıralama işinin daha verimli bir şekli, dizinin elemanlarının yer değiştirmesiyle mümkündür. Dizinin ilk elemanıyla başlanır. İlk eleman, son eleman ile yer değiştirir. Ardından dizinin ikinci elemanı, sondan ikinci elemanla yer değiştirir. Bu şekilde dizinin tüm elemanları, ikinci bir diziye gerek kalmadan ve de dizideki toplam eleman sayısının yarısı kadar adım sayısında, tersine çevrilmiş olacaktır.
 
+Sözde Kod :
+```
+sayi = 0
+hedef = 0
+gecici = 0
+dizi ARRAY = {1, 2, 3, 4}
+hedef = INT(dizi.COUNT / 2) - 1
+FOR i = 0 TO hedef
+   gecici = dizi(dizi.COUNT - 1 - i)
+   dizi(dizi.COUNT - 1 - i) = dizi(i)
+   dizi(i) = gecici
+ENDFOR
+FOR i = 0 TO dizi.COUNT - 1
+   DISPLAY dizi(i)
+ENDFOR
+```
