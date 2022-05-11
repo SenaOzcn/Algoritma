@@ -188,3 +188,61 @@ ENDFOR
 Çözümün Java ile kodlanmış hali aşağıdaki gibidir ;
 
 ![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Problem%20%C3%87%C3%B6z%C3%BCmleme%20Y%C3%B6ntemleri/Images/YerDegistirmeIslemi.png)
+
+## Alt Yordam Kullanmak
+
+Belirli bir kapsam içinde çerçevelendirilmiş ve isimlendirilmiş kod bloklarına **fonksiyon** ya da **alt yordam** adı verilir. Aynı işi tekrar tekrar yapmamamızı sağlar.
+
+```
+Ekrana girilen bir metni kelimelere ayırarak her bir kelimenin ilk karakterini büyük, diğer karakterini küçük harfe çevirerek ekrana yazdıran algoritmayı tasarlayın.
+(Metin içindeki kelimeler boşluk karakteri esas alınarak ayrıştırılacaktır.)
+```
+Örneğin; kullanıcı ekrana şöyle bir metin girsin:
+```
+Algoritma geliştirmek artık daha kolay
+```
+Çözümün çıktısı şöyle olmalıdır :
+```
+Algoritma
+Geliştirmek
+Artık
+Daha
+Kolay
+```
+Çözümün girdisi olarak kullanıcıdan bir metin alınacaktır.
+```
+Metin
+```
+Çözümün çıktısı ise bu metnin kelimelerinin ayrılmış ve büyük/küçük harf dönüşümü gerçekleştirilmiş kelimeler dizisidir.
+```
+Kelimeler
+```
+Çözüm için gerçekleştirilecek adımlar :
+- Metni kelimelere parçala
+- Her bir kelimenin ilk karakterini büyüt, diğer karakterlerini küçült
+- Kelimeleri ekrana yazdır.
+
+Sözde Kod :
+```
+SUB MAIN()
+   metin = ""
+   hamKelime = ""
+   kelimeler = ""
+   DISPLAY "Bir metin girin : "
+   GET metin
+   kelimeler = SPLIT(metin, "")
+   FOR i = 0 TO kelimeler.COUNT - 1
+      hamKelime = kelimer(i)
+      DISPLAY BaslikBicimi(hamKelime)
+   ENDFOR
+ENDSUB
+FUNCTION BaslikBicimi(kelime)
+   ilkKarakter = ""
+   kucukHarfler = ""
+   yeniKelime = ""
+   ilkKarakter = SUBSTRING(kelime,0,1)
+   kucukHarfler = SUBSTRING(kelime, 1, LEN(kelime) - 1)
+   yeniKelime = UCASE(ilkKarakter) + LCASE(kucukHarfler)
+   RETURN yeniKelime
+ENDFUNCTION
+```
