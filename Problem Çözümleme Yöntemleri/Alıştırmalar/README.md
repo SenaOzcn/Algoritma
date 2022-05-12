@@ -10,7 +10,7 @@ Sayısal Loto oyununda, 6, 5, 4 ve 3 tane sayıyı doğru tahmin eden kişilere 
 
 Sözde Kod :
 ```
-DISPLAY "KAç kolon oynayacaksınız ? (1/8) "
+DISPLAY "Kaç kolon oynayacaksınız ? (1/8) "
 GET kolonsayisi
 int[][] kolon
 FOR i = 0 TO kolonsayisi STEP 1
@@ -30,3 +30,6 @@ FOR i = 0 TO kolonsayisi STEP 1
    ENDFOR
 ENDFOR
 ```
+Çözümün Java ile kodlanmış hali aşağıdaki gibidir ;
+
+![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Problem%20%C3%87%C3%B6z%C3%BCmleme%20Y%C3%B6ntemleri/Al%C4%B1%C5%9Ft%C4%B1rmalar/Images/SayisalLoto.png)
