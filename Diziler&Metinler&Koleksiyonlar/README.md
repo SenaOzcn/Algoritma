@@ -129,7 +129,11 @@ SayacSonu
 Yukardaki iç içe ikili sayaç yapısı, 24 adım işleterek, matrisin her bir elemanıyla çalışmamızı sağlar.
 ### Harfler(3,4)
 
-![gorsel](https://github.com/SenaOzcn/Algoritma/blob/MIT-License/Diziler%26Metinler%26Koleksiyonlar/Images/Harfler.png)
+| Endeks | 0 | 1 | 2 | 3 |
+| --- | --- | --- | --- | --- |
+| 0 | A | J | H | P |
+| 1 | Ü | C | D | S |
+| 2 | K | İ | L | T |
 
 ```
 Sayac (Satir = 0 TO 2 STEP 1)
